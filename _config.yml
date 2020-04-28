@@ -28,7 +28,6 @@ github_username:  Subsurface
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
 
 lang: en 
