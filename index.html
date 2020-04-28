@@ -13,6 +13,9 @@ title: "GitHub Page for the Subsurface project"
   <ul class="post-list">
     {% assign posts=site.posts | where:"lang", page.lang %}
     {% for post in posts %}
+      {% if post.draft %}
+        {% continue %}
+      {% endif %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
