@@ -27,6 +27,7 @@ github_username:  Subsurface
 
 # Build settings
 theme: minima
+encoding: UTF-8
 plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
