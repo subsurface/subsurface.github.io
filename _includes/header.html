@@ -3,7 +3,11 @@
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    {%- capture my_base -%}/{{page.lang}}{%- endcapture -%}
+    {%- if page.lang == "en" -%}
+      {%- assign my_base = "/" -%}
+    {%- else -%}
+      {%- capture my_base -%}/{{page.lang}}{%- endcapture -%}
+    {%- endif -%}
     <a class="site-title" rel="author" href="{{ my_base | relative_url }}">{{ site.title | escape }}</a>
 
     {%- if page_paths -%}
@@ -18,9 +22,17 @@
         </label>
 
         <div class="trigger">
-    {%- for l in site.languages -%}
-      <a class="page-link" href="{{site.base_url}}{{l.base}}/{{page.name}}">{{l.flag}} {{l.short}}</a>
-    {%- endfor -%}
+          {%- assign refposts=site.posts | where:"ref", page.ref | sort: 'lang' -%}
+          {%- if refposts.size == 0 -%}
+            {%- assign refposts=site.pages | where:"ref", page.ref | sort: 'lang' -%}
+          {%- endif -%}
+          {%- for p in refposts -%}
+            {%- for lpack in site.languages -%}
+              {%- if lpack.short == p.lang -%}
+                <a class="page-link" href="{{p.url | relative_url}}">{{lpack.flag}} {{lpack.short}}</a>
+              {%- endif -%}
+            {%- endfor -%}
+          {%- endfor -%}
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title and my_page.ref != "index" and my_page.lang == page.lang -%}
