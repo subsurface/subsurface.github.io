@@ -3,7 +3,8 @@
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    {%- capture my_base -%}/{{page.lang}}{%- endcapture -%}
+    <a class="site-title" rel="author" href="{{ my_base | relative_url }}">{{ site.title | escape }}</a>
 
     {%- if page_paths -%}
       <nav class="site-nav">
@@ -17,10 +18,13 @@
         </label>
 
         <div class="trigger">
+    {%- for l in site.languages -%}
+      <a class="page-link" href="{{site.base_url}}{{l.base}}/{{page.name}}">{{l.flag}} {{l.short}}</a>
+    {%- endfor -%}
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title -%}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            {%- if my_page.title and my_page.ref != "index" and my_page.lang == page.lang -%}
+              <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
         </div>
