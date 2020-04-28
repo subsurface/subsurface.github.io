@@ -4,6 +4,7 @@ title:  "Subsurface-mobile 3.0 released"
 lang:   "de"
 date:   2020-03-28 08:00:00 -0700
 categories: release
+ref: subsurface-mobile-3.0
 ---
 *Subsurface-mobile* is the mobile version of *Subsurface*, advanced dive logging software with extensive infrastructure to display, organize, and interpret scuba and free dives. *Subsurface-mobile* is available for Android and iOS. It is open-source software (in simple terms that means that there is no commercial interest behind it, all the source code needed to build the app is available, there are no ads, no one is monetizing your data, etc).
 

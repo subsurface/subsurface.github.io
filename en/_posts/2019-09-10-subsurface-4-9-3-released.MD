@@ -6,6 +6,7 @@ date:   2019-09-10 08:00:00 -0700
 categories: release
 version: 4.9.3
 previousVersion: 4.9.1
+ref: subsurface-4.9.3
 ---
 
 The Subsurface development team proudly announces the release {{ page.version }} of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.
