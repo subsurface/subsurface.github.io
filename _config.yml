@@ -29,6 +29,7 @@ github_username:  Subsurface
 theme: minima
 plugins:
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 lang: en 
 languages:
