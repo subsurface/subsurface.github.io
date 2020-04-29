@@ -7,6 +7,17 @@
 <p><strong>Linux:</strong> Ein generisches AppImage ist auf unserer <a href="https://github.com/Subsurface/subsurface/releases/tag/v{{page.version}}">Subsurface GitHub Release Seite</a>. Klicke auf <a href="https://github.com/Subsurface/subsurface/releases/download/v{{page.version}}/Subsurface-{{page.version}}-x86_64.AppImage">Subsurface-{{page.version}}-x86_64.AppImage</a>, um es herunterzuladen und mache es mittels<br><code>chmod +x Subsurface-{{page.version}}-x86_64.AppImage</code> ausführbar; nun kann diese Datei direkt aufgerufen werden.<br><strong>Linux: Ubuntu:</strong> Trage <code>ppa:subsurface/subsurface</code> in die Software Sources ein; die .deb Dateien in diesem PPA können auch auf hinreichend neuen <strong>Debian</strong> und <strong>LinuxMint</strong> Distributionen installiert werden; siehe die <a href="https://subsurface-divelog.org/download/">Programme herunterladen</a> Seite und <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> für die aktuelle Version.</p>
 <p><strong>Linux: openSUSE / Fedora:</strong> finden sich auf unserer <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">Open Build Service Release Seite</a></p>
 <p>Wir freuen uns über Nachrichten zu Fehlern in Subsurface in unserem <a href="https://subsurface-divelog.org/user-forum/">Benutzer Forum</a> ausserdem haben wir einen <a href="https://github.com/Subsurface/subsurface/issues">Bugtracker</a> auf dem solche Berichte eingestellt und bearbeitet werden können.</p>
+{% elsif page.lang == "es" %}
+
+
+
+
+{% elsif page.lang == "pt" %}
+
+
+
+
+
 {% elsif page.lang == "nl" %}
 <p>De software is beschikbaar voor Windows, Mac en een AppImage voor x86-64 Linux (en daarnaast distributie specifieke software voor een aantal Linux varianten waaronder Ubuntu, Debian, Linux Mint, Fedora, en openSUSE).</p>
 <p>Je kunt Subsurface {{page.version}} ophalen van de volgende locaties:</p>
