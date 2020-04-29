@@ -1,51 +1,51 @@
 ---
 layout: post
-title:  "Subsurface-mobile 3.0 released"
-lang:   "en"
+title:  "Lançado o Subsurface-mobile 3.0"
+lang:   "pt"
 date:   2020-03-28 08:00:00 -0700
 categories: release
 ref: subsurface-mobile-3.0
 ---
-*Subsurface-mobile* is the mobile version of *Subsurface*, advanced dive logging software with extensive infrastructure to display, organize, and interpret scuba and free dives. *Subsurface-mobile* is available for Android and iOS. It is open-source software (in simple terms that means that there is no commercial interest behind it, all the source code needed to build the app is available, there are no ads, no one is monetizing your data, etc).
+*Subsurface-mobile* é a versão móvel do *Subsurface*, um programa de registo de mergulhos avançado com uma extensa infraestrutura para mostrar, organizar e interpretar mergulhos. O *Subsurface-mobile* está disponível para os sistemas operativos Android e iOS. É um programa de código livre, o que de uma forma simples significa que não existem interesses comerciais por detrás do programa e que todo o código necessários para construir a aplicação está disponível livremente; não possui anúncios e ninguém está a ganhar dinheiro com os seus dados... 
 
-*Subsurface-mobile* allows a more accessible dive log on the go. For example, you can prove dive experience on a dive trip to dive shops or review previous dives while on a dive boat. *Subsurface-mobile* also allows the gathering of GPS locations where dives are performed. Assuming you have a dive computer that is supported by the mobile OS of your choice, *Subsurface-mobile* even supports the downloading of dives from your dive computer.
+*Subsurface-mobile* permite dispor de um logbook quando está fora de casa. Por exemplo, pode servir como prova da sua experiência de mergulho junto de um centro de mergulho ou para rever mergulhos enquanto está em viagem. O *Subsurface-mobile* também permite registar posições de GPS dos locais onde são efectuados os mergulhos. Partindo do princípio que tem um computador de mergulho suportado pela sistema operativo móvel da sua preferência, o *Subsurface-mobile* também permite descarregar os mergulhos a partir do seu computador de mergulho.
 
-Users of *Subsurface-mobile* typically use the mobile app together with the desktop version of *Subsurface*, sharing dive information between the mobile and the desktop versions using a free *Subsurface Cloud* account. However, *Subsurface-mobile* can also be used independently of the desktop version and does not require the use of cloud storage.
+Os utilizadores do *Subsurface-mobile* usam normalmente a aplicação móvel em conjunto a versão desktop do *Subsurface*, partilhando informação entre as duas plataformas através de uma conta no serviço de armazenamento remoto *Subsurface Cloud*. No entanto, o *Subsurface-mobile* pode ser usado independentemente da versão desktop e não é necessário possuir uma conta no serviço de armazenamento remoto para usar a aplicação.
 
-*Subsurface-mobile* 3.0 is a fairly significant rewrite of our mobile app, which we believe justifies the jump in major version number.
+A versão 3.0 do *Subsurface-mobile* é uma actualização substancial da aplicação móvel que acreditamos justificar um aumento do número da versão.
 
-# Major new features
+# Novidades importantes
 
-  - We completely re-implemented the dive list and as a result you should see a very noticeable performance improvement compared to earlier versions. As part of this rewrite, we have added a context menu to several screens, which gives you access to additional operations. For example, you are now able to manage dive trips in the mobile app, move dives between trips, edit trip notes, etc.
+  - A implementação da lista de mergulhos foi completamente reescrita e como resultado são visíveis aumentos substanciais na velocidade quando comparada com as versões anteriores. Como parte desta reescrita, foi adicionado um menu de contexto a vários ecrãs, que dá acesso a operações adicionais. Por exemplo, agora pode gerir viagens de mergulho na aplicação móvel, mover mergulhos entre viagens, editar notas da viagem, etc.
 
-  - You can now zoom into the dive profile with a pinch gesture and pan the zoomed-in profile by dragging with a finger in order to better see details in the profile.
+  - Pode fazer zoom no perfil de mergulho através de gestos (pinch) e deslocar o perfil aumentado arrastando-o com um dedo, de modo a melhor visualizar os detalhes do perfil.
 
-  - We added an undo and redo system which makes it much easier to deal with errors or unintended actions that you may have taken in the mobile UI.
+  - Adicionámos um sistema de "undo" e "redo" que torna mais simples lidar com erros ou corrigir alterações inadvertidas. 
 
-  - For *Android* users, we are bringing back a major feature that we used to have a partial implementation of: downloads from USB-serial dive computers should once again work for all Android devices. This means you can download dive information directly to your mobile Android device from most older Suunto dive computers, most Mares, Oceanic, Scubapro, etc. Actually, this new feature supports quite a few more dive computer families for USB serial download than what we had before, as now more USB serial chipsets are supported.
+  - Para os utilizadores do SO *Android*, esta versão trás de volta a capacidade de descarregar mergulhos a partir de computadores de mergulho que usam o interface USB-série. Isto significa que é possível descarregar os mergulhos directamente para a aplicação mível a partir da maior parte dos modelos de computador de mergulho mais antigos da Suunto, alguns Mares, Oceanic, Scubapro, etc. Na realidade esta nova função suporta mais computadores de mergulho do que antigamente, na medida em que mais chipsets são suportados.
 
-# Other improvements
+# Outras melhoras
 
-  - We restructured the menu system which is now more intuitive, bundling related topics together and reducing clutter.
+  - Reestruturado o sistema de menus, que é agora mais intuitivo ao agrupar tópicos relacionados e as reduzir espaço.
 
-  - You can now initiate a reset of your *Subsurface Cloud* password from within the mobile app.
+  - É possível efectuar a reinicialização da password do serviço de armazenamento remoto a partir da aplicação móvel.
 
-  - We rewrote the *Settings* page to make it easier to use.
+  - Reescrita a página das configurações, para facilitar o seu uso.
 
-  - You can now select the unit system that *Subsurface-mobile* uses to display your dive data.
+  - Pode escolher o sistema de unidades usado pelo *Subsurface-mobile* para mostrar os seus dados.
 
-  - We added a new *Dive summary* which should make it easier to give a dive center a quick overview of your dive experience.
+  - Foi adicionado um novo "Sumário" que torna mais simples mostrar um resumo da sua experiência de mergulho aos operadores de mergulho.  
 
-  - We made small improvements (as a result of a complete behind-the-scenes rewrite) to the filter code.
+  - Foram feitas pequenas melhorias ao código do filtro dos mergulhos.
+  
+  - Devem ser visíveis várias melhorias na utilização do interface de utilizador.
 
-  - You should see various usability improvements in the UI.
+  - É possivel fazer o upload de mergulhos para os serviços divelogs.de e DiveShare.com directamente a partir da aplicação móvel.
 
-  - You are now able to upload dive data to divelogs.de and DiveShare.com directly from your mobile device.
+# Correcção de problemas
 
-# Bug fixes
+  - Vários pequenos probelmas que se verificavam na lista de mergulhos na versão anterior devem ter desaparecido.
 
-  - Several of the small oddities with the dive list in our last version should be gone; in the previous version sometimes after editing a dive you were shown the wrong dive; sometimes after larger operations like downloading from a dive computer or applying GPS fixes the dive list would get completely confused and you had to restart *Subsurface-mobile* for things to work correctly again. Many other small improvements along those same lines.
+  - Pequenas correcções para problemas no interface da descarga de mergulhos e na manipulação dos mergulhos descarregados.
 
-  - We made many small bug fixes in the download UI and the handling of downloaded dives.
-
-  - We fixed an issue with GPS positions that were applied to otherwise unchanged dives not being saved to storage.
+  - Corrigido o problema ao gravar no sistema de armazenamento remoto mergulhos em que as posições de GPS tinham sido alteradas.
