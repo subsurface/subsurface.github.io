@@ -1,9 +1,7 @@
 ---
-draft: true
 layout: post
 title:  "Subsurface 4.9.4 released"
-lang:   "en"
-date:   2020-05-01 08:00:00 -0700
+lang:   "de"
 categories: release
 version: 4.9.4
 previousVersion: 4.9.3

@@ -1,16 +1,14 @@
 ---
-draft: true
 layout: post
-title:  "Subsurface 4.9.4 released"
-lang:   "de"
-date:   2020-05-01 08:00:00 -0700
+title:  Aankondiging Subsurface 4.9.4
+lang:   nl
 categories: release
 version: 4.9.4
 previousVersion: 4.9.3
 ref: subsurface-4.9.4
 ---
 
-The Subsurface development team proudly announces the release {{ page.version }} of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.
+Het Subsurface ontwikkelteam presenteert met trots versie {{ page.version }} van Subsurface, een open source duiklog en duikplan programma beschikbaar voor Windows, Mac en Linux.
 
 This release fixes a number of issues in {{ page.previousVersion }} and adds some major new features. Some of the changes in Subsurface {{ page.version }}:
 
