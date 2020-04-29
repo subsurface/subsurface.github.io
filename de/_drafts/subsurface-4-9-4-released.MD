@@ -14,7 +14,7 @@ This release fixes a number of issues in {{ page.previousVersion }} and adds som
 
 # new features:
 
-  - maps: show the dive site as marker when opening Google Maps
+  - Kareten: zeige eine Markierung für den Tauchplatz wenn er in Google Maps geöffnet wird
 
   - undo: implement undo of event handling (viz. bookmarks, setpoints, gas switches)
 
