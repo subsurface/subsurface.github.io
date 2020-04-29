@@ -1,52 +1,51 @@
 ---
 layout: post
-title:  "Subsurface 4.9.3 released"
-lang:   "en"
+title:  "Lançado o Subsurface 4.9.3"
+lang:   "pt"
 date:   2019-09-10 08:00:00 -0700
 categories: release
 version: 4.9.3
 previousVersion: 4.9.1
 ref: subsurface-4.9.3
 ---
+A equipa de desenvolvimento do Subsurface tem o orgulho de anunciar a disponibilização da versão {{ page.version }} do Subsurface, um programa de código livre para registo e planeamento de mergulhos para Windows, Mac e Linux.
 
-The Subsurface development team proudly announces the release {{ page.version }} of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.
+Esta versão corrige um conjunto de problemas com a versão {{ page.previousVersion }} (Subsurface 4.9.2 criado mas nunca anunciado).
 
-This release fixes a number of issues in {{ page.previousVersion }} (Subsurface 4.9.2 was tagged but never announced).
-
-Some of the changes in Subsurface {{ page.version }}:
+Algumas das alterações no Subsurface {{ page.version }}:
 
 
-# bugfixes:
+# correcção de problemas:
 
-  - Desktop: close dive site widget if dive site is removed by undo
+  - Desktop: fechar o widget dos locais de mergulho se o local for removido através de um "undo"
 
-  - Desktop: Don’t destroy format of planner notes when editing dive notes \[\#2265\]
+  - Desktop: não destruir o formato das notas ao editar notas no planeamento \[\#2265\]
 
-  - Map: avoid full map reload when clicking on flag
+  - Mapa: evitar carregar a totalidade do mapa ao clicar numa bandeira
 
-  - Map: highlight all selected dive sites when clicking on flag
+  - Mapa: salientar todos os locais de mergulho ao clicar numa bandeira
 
-  - Map: fix crash when clicking on flags in Qt 5.9
+  - Mapa: correcção do crash ao clicar numa bandeira com o Qt 5.9
 
-  - Desktop: fix crash when saving subtitles or profile picture
+  - Desktop: correcção do crash ao gravar legendas ou imagens do perfil de mergulho
 
-  - Desktop: fix copy & paste crash
+  - Desktop: correcção do crash ao copiar e colar
 
-  - Desktop: fix saving to XML with empty dive site taxonomies
+  - Desktop: correcção do crash ao exportar para XML locais de mergulho com nodos vazios
+  
+  - Desktop: correcção da exibição da hora da viagm de mergulho
 
-  - Desktop: fix display of trip time
+  - planeamento: correcção do cálculo do CNS para pO2 \> 1.6 bar
 
-  - Planner: fix calculation of CNS for pO2 \> 1.6 bar
-
-  - Mobile: allow editing weights for dives that have no weight
+  - Mobile: permitir a edição do lastro para mergulhos sem informação de lastro
 
 # libdivecomputer:
 
-  - add support for Deepblu Cosmiq+
+  - adicionado suporte para o Deepblu Cosmiq+
 
-  - add support for Aqualung i200C
+  - adicionado suporte para o Aqualung i200C
 
-  - various bug fixes
+  - várias correcções de problemas
 
 
 {% include desktop-release-bottom.MD %}
