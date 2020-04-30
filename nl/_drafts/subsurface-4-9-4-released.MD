@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Aankondiging Subsurface 4.9.4
-lang:   nl
+title: "Aankondiging Subsurface 4.9.4"
+lang: "nl"
 categories: release
 version: 4.9.4
 previousVersion: 4.9.3
@@ -10,62 +10,62 @@ ref: subsurface-4.9.4
 
 Het Subsurface ontwikkelteam presenteert met trots versie {{ page.version }} van Subsurface, een open source duiklog en duikplan programma beschikbaar voor Windows, Mac en Linux.
 
-This release fixes a number of issues in {{ page.previousVersion }} and adds some major new features. Some of the changes in Subsurface {{ page.version }}:
+Deze release lost een aantal problemen op in {{page.previousVersion}} en voegt enkele belangrijke nieuwe functies toe. Enkele van de wijzigingen in Subsurface {{page.version}}:
 
-# new features:
+# nieuwe functies:
 
-  - maps: show the dive site as marker when opening Google Maps
+  - kaarten: toon de duikstek als markering bij het openen van Google Maps
 
-  - undo: implement undo of event handling (viz. bookmarks, setpoints, gas switches)
+  - ongedaan maken: mogelijkheid om gebeurtenissen ongedaan te maken (bladwijzers, setpoints, gaswissels)
 
-  - undo: make dive replanning undoable
+  - ongedaan maken: mogelijk voor herplannen van duik
 
-  - dive-list: implement dive invalidation
+  - duiklijst: mogelijkheid om duiken ongeldig te verklaren
 
-  - filter: implement fulltext search
+  - filter: mogelijkheid voor zoeken in volledige tekst
 
-  - filter: add starts-with and exact filter modes for textual search
+  - filter: "begint met" en "exact" filters toegevoegd voor zoeken op tekst
 
-  - dive-info: add the ability to modify dive salinity
+  - duikinformatie : mogelijkheid om het zoutgehalte te wijzigen
 
-  - dive-info: add current GF to infobox
+  - duikinformatie: huidige GF toegevoegd aan het informatievak
 
-  - dive-info: remove restriction on number of cylinders
+  - duikinformatie: geen restrictie meer op het aantal flessen
 
-  - UI: increase speed of multi-trip selection
+  - UI: snelheid verbeterd bij selectie van meerdere trips
 
-  - planner: add checkbox on considering oxygen narcotic
+  - planner: selectievak toegevoegd om zuurstof als narcotisch te beschouwen
 
-  - planner: improve rounding of stop durations in planner notes
+  - planner: verbetering van afronding stoptijden in planner notities
 
-# bugfies:
+# opgeloste problemen:
 
-  - fix creation of new cylinder types (names couldn’t be the start of already existing names)
+  - creëren van nieuwe flestypes gecorrigeerd (naam kon niet gelijk zijn aan het begin van een reeds bestaande naam)
 
-  - fix tab-order in filter widget
+  - tabvolgorde gecorrigeerd in het filter venster 
 
-  - ignore dive sites without location in proximity search
+  - negeer duikstekken zonder locatie bij een dichtstbijzijnde zoekopdracht
 
-  - fix issue with Linux AppImage failing to communicate with Bluetooth dive computers \[\#2370\]
+  - probleem opgelost in Linux AppImage met niet kunnen communiceren met Bluetooth duikcomputers \[\#2370\]
 
-  - allow copy\&pasting of multiple cylinders \[\#2386\]
+  - kopiëren en plakken van meerdere flessen is mogelijk \[\#2386\]
 
-  - don’t output random SAC values for cylinders without data \[\#2376\]
+  - geen willekeurige SAC waarden genereren voor flessen zonder gegevens \[\#2376\]
 
-  - register changes when clicking "done" on dive-site edit screen
+  - wijzigingen vastleggen bij klikken op "Klaar" in het duikstek wijzigen scherm
 
-  - update statistics tab on undo or redo
+  - statistieken tabblad bijwerken bij ongedaan maken of opnieuw uitvoeren
 
-  - update dive details when replanning dive \[\#2280\]
+  - duikdetails bijwerken bij herplannen van een duik \[\#2280\]
 
-  - when exporting dive sites in dive site mode, export selected dive sites \[\#2275\]
+  - bij exporteren van duikstekken in duikstekken mode, exporteer de geselecteerde duikstekken \[\#2275\]
 
 # libdivecomputer:
 
-  - add support for the Oceanic Geo 4.0
+  - ondersteuning voor de Oceanic Geo 4.0
 
-  - clean up Shearwater tank pressure handling
+  - opschonen Shearwater flesdruk verwerking 
 
-  - minor fixlets
+  - kleine verbeteringen
 
 {% include desktop-release-bottom.MD %}
