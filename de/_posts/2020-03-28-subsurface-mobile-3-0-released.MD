@@ -1,51 +1,44 @@
 ---
 layout: post
-title:  "Subsurface-mobile 3.0 released"
+title:  "Ankündigung der Version 3.0 von Subsurface-mobile"
 lang:   "de"
 date:   2020-03-28 08:00:00 -0700
 categories: release
 ref: subsurface-mobile-3.0
 ---
-*Subsurface-mobile* is the mobile version of *Subsurface*, advanced dive logging software with extensive infrastructure to display, organize, and interpret scuba and free dives. *Subsurface-mobile* is available for Android and iOS. It is open-source software (in simple terms that means that there is no commercial interest behind it, all the source code needed to build the app is available, there are no ads, no one is monetizing your data, etc).
+*Subsurface-mobile* ist die Mobil-Applikation des *Subsurface* Teams. Subsurface-mobile ist ein komplettes Tauchlogbuch für Android und iOS. Es erlaubt die Tauchgangliste auf einem Tablet oder Handy anzuzeigen, zu bearbeiten und sogar direkt von vielen Tauchcomputern Tauchdaten herunterzuladen. *Subsurface-mobile* ist ein quell-offenes Programm, einfach gesagt heißt das, dass hier keine kommerziellen Interessen bestehen, dass die vollständigen Programm-Quellen veröffentlicht sind, dass keine Anzeigen in unseren Programmen sind und dass die Benutzerdaten in keinsterweise verwerten werden.
+ 
+*Subsurface-mobile* ermöglicht es dem Benutzer, auf sein Tauchlogbuch unterwegs zuzugreifen. Zum Beispiel kannst Du einer Tauchbasis Deine Taucherfahrung belegen oder auf einem Tauchboot auf Informationen zu vorherigen Tauchgängen zugreifen. Desweiteren kann *Subsurface-mobile* GPS Lokationen erfassen und entsprechend dem Tauchplatz zuweisen.
 
-*Subsurface-mobile* allows a more accessible dive log on the go. For example, you can prove dive experience on a dive trip to dive shops or review previous dives while on a dive boat. *Subsurface-mobile* also allows the gathering of GPS locations where dives are performed. Assuming you have a dive computer that is supported by the mobile OS of your choice, *Subsurface-mobile* even supports the downloading of dives from your dive computer.
+In der Regel wird *Subsurface-mobile* zusammen mit der Desktop Version von *Subsurface* benutzt. Die Tauchdaten können einfach zwischen verschiedenen Geräten und Computern über die *Subsurface Cloud* geteilt werden. *Subsurface-mobile* kann aber auch ausschliesslich auf einem Mobil-Gerät benutzt werden, ohne auf Cloud Speicher zugreifen zu müssen.
 
-Users of *Subsurface-mobile* typically use the mobile app together with the desktop version of *Subsurface*, sharing dive information between the mobile and the desktop versions using a free *Subsurface Cloud* account. However, *Subsurface-mobile* can also be used independently of the desktop version and does not require the use of cloud storage.
+*Subsurface-mobile* 3.0 ist eine relativ tiefgreifende Neuimplementierung unsere Mobil-Applikation, daher die neue Versions-Nummer 3.0.
 
-*Subsurface-mobile* 3.0 is a fairly significant rewrite of our mobile app, which we believe justifies the jump in major version number.
+# Wesentlich neue Merkmale
 
-# Major new features
+  - Vollständig Neuimplementierung der Tauchgangliste, was zu einer wesentlichen Verbesserung der Verarbeitungsgeschwindigkeit und Benutzbarkeit führt. Eingeschlossen darin ist ein neues Kontext-Menu, welches zum Beispiel die Verwaltung und Bearbeitung von Tauchreisen ermöglicht.
 
-  - We completely re-implemented the dive list and as a result you should see a very noticeable performance improvement compared to earlier versions. As part of this rewrite, we have added a context menu to several screens, which gives you access to additional operations. For example, you are now able to manage dive trips in the mobile app, move dives between trips, edit trip notes, etc.
+  - Das Tauchprofil kann nun vergrößert werden um es einfacher zu machen, Details zu erkennen.
 
-  - You can now zoom into the dive profile with a pinch gesture and pan the zoomed-in profile by dragging with a finger in order to better see details in the profile.
+  - Alle operationen können nun rückgängig gemacht werden, wodurch es viel einfacher ist, mit gelegentlichen Bedienungsfehlern umzugehen.
 
-  - We added an undo and redo system which makes it much easier to deal with errors or unintended actions that you may have taken in the mobile UI.
+  - Speziell für Android Benutzer ist es jetzt wieder möglich, direkt Tauchdaten von USB-serial Tauchcomputern herunterzuladen. Zum Beispiel werden jetzt alle Suunto Tauchcomputer unterstützt, entweder über BLE oder USB-serial. Ebenso viele Tauchcomputer von Mares, Oceanic, Scubapro, etc.
 
-  - For *Android* users, we are bringing back a major feature that we used to have a partial implementation of: downloads from USB-serial dive computers should once again work for all Android devices. This means you can download dive information directly to your mobile Android device from most older Suunto dive computers, most Mares, Oceanic, Scubapro, etc. Actually, this new feature supports quite a few more dive computer families for USB serial download than what we had before, as now more USB serial chipsets are supported.
+# Andere Verbesserungen
 
-# Other improvements
+  - Ein besseres Menu-System
 
-  - We restructured the menu system which is now more intuitive, bundling related topics together and reducing clutter.
+  - Reset des Subsurface-Cloud Passwords direkt aus der App
 
-  - You can now initiate a reset of your *Subsurface Cloud* password from within the mobile app.
+  - Bessere Benutzerschnittstelle für die Einstellungen
 
-  - We rewrote the *Settings* page to make it easier to use.
+  - Zusammenfassung der Taucherfahrung (vereinfachte Statistik)
 
-  - You can now select the unit system that *Subsurface-mobile* uses to display your dive data.
+  - Verbesserungen im Filter
 
-  - We added a new *Dive summary* which should make it easier to give a dive center a quick overview of your dive experience.
+  - Anbindung der Mobil-Applikation an divelogs.de und DiveShare.com
 
-  - We made small improvements (as a result of a complete behind-the-scenes rewrite) to the filter code.
+# Fehlerbeseitigung
 
-  - You should see various usability improvements in the UI.
+  - Viel kleinere und größere Verbesserungen in der Tauchgangliste, einige Abstürze wurden behoben, etc.
 
-  - You are now able to upload dive data to divelogs.de and DiveShare.com directly from your mobile device.
-
-# Bug fixes
-
-  - Several of the small oddities with the dive list in our last version should be gone; in the previous version sometimes after editing a dive you were shown the wrong dive; sometimes after larger operations like downloading from a dive computer or applying GPS fixes the dive list would get completely confused and you had to restart *Subsurface-mobile* for things to work correctly again. Many other small improvements along those same lines.
-
-  - We made many small bug fixes in the download UI and the handling of downloaded dives.
-
-  - We fixed an issue with GPS positions that were applied to otherwise unchanged dives not being saved to storage.
