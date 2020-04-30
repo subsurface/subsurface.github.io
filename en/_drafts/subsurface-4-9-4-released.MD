@@ -38,7 +38,7 @@ This release fixes a number of issues in {{ page.previousVersion }} and adds som
 
   - planner: improve rounding of stop durations in planner notes
 
-# bugfies:
+# bugfixes:
 
   - fix creation of new cylinder types (names couldn’t be the start of already existing names)
 
