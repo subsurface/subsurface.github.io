@@ -62,7 +62,11 @@ Deze release lost een aantal problemen op in {{page.previousVersion}} en voegt e
 
 # libdivecomputer:
 
-  - ondersteuning voor de Oceanic Geo 4.0
+  - ondersteuning voor de Oceanic Geo 4.0, ProPlus 4
+
+  - ondersteuning voor de Scubapro Aladin A1
+
+  - ondersteuning voor de Sherwood Wisdom 4
 
   - opschonen Shearwater flesdruk verwerking 
 

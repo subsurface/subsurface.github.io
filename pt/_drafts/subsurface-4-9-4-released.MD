@@ -63,7 +63,11 @@ Esta versão resolve alguns problemas da versão {{ page.previousVersion }} e ad
 
 # libdivecomputer:
 
-  - adicionado suporte para o Oceanic Geo 4.0
+  - adicionado suporte para o Oceanic Geo 4.0, ProPlus 4
+
+  - adicionado suporte para o Scubapro Aladin A1
+
+  - adicionado suporte para o Sherwood Wisdom 4
 
   - limpar o modo de lidar com a pressão das garrafas no Shearwater
 

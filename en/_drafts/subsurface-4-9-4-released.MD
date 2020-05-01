@@ -62,7 +62,11 @@ This release fixes a number of issues in {{ page.previousVersion }} and adds som
 
 # libdivecomputer:
 
-  - add support for the Oceanic Geo 4.0
+  - add support for the Oceanic Geo 4.0, ProPlus 4
+
+  - add support for the Scubapro Aladin A1
+
+  - add support for the Sherwood Wisdom 4
 
   - clean up Shearwater tank pressure handling
 
