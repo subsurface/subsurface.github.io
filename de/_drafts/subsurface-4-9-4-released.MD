@@ -8,11 +8,11 @@ previousVersion: 4.9.3
 ref: subsurface-4.9.4
 ---
 
-The Subsurface development team proudly announces the release {{ page.version }} of Subsurface, an open source dive log and dive planning program for Windows, Mac and Linux.
+Das Subsurfe-Entwicklingsteam ist stolz, die Version {{ page.version }} von Subsurface anzukündigen, einem Open-Source Tauchlogbuch und -Planungsprogramm für Windows, Mac und Linux.
 
-This release fixes a number of issues in {{ page.previousVersion }} and adds some major new features. Some of the changes in Subsurface {{ page.version }}:
+Diese Version behebt eine Reihe von Fehlern und bringt ausserdem ein paar neu Features seit Version {{ page.previousVersion }}. Einige der Neuerungen in Subsurface {{ page.version }}:
 
-# new features:
+# neue Features:
 
   - maps: show the dive site as marker when opening Google Maps
 
@@ -38,7 +38,7 @@ This release fixes a number of issues in {{ page.previousVersion }} and adds som
 
   - planner: improve rounding of stop durations in planner notes
 
-# bugfies:
+# behobene Fehler:
 
   - fix creation of new cylinder types (names couldn’t be the start of already existing names)
 
@@ -62,14 +62,14 @@ This release fixes a number of issues in {{ page.previousVersion }} and adds som
 
 # libdivecomputer:
 
-  - add support for the Oceanic Geo 4.0, ProPlus 4
+  - neu: Unterstützung für Oceanic Geo 4.0, ProPlus 4
 
-  - add support for the Scubapro Aladin A1
+  - neu: Unterstützung für Scubapro Aladin A1
 
-  - add support for the Sherwood Wisdom 4
+  - neu: Unterstützung für Sherwood Wisdom 4
 
-  - clean up Shearwater tank pressure handling
+  - Verbesserung der Verarbeitung von Shearwater Daten zum Flaschendruck
 
-  - minor fixlets
+  - mehrere andere kleine Verbesserungen
 
 {% include desktop-release-bottom.MD %}

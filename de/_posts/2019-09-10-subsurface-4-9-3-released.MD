@@ -9,7 +9,7 @@ previousVersion: 4.9.1
 ref: subsurface-4.9.3
 ---
 
-Das Subsurfe-Entwicklingsteam ist stolz, die Version {{ page.version }} von Subsurface anzukündigen, einem Open-Source Tauchlogbuch und -Planungsprogramm für Windows, Mac und Linux. 
+Das Subsurfe-Entwicklingsteam ist stolz, die Version {{ page.version }} von Subsurface anzukündigen, einem Open-Source Tauchlogbuch und -Planungsprogramm für Windows, Mac und Linux.
 
 Diese Version behebt eine Reihe von Fehlern und bringt ausserdem ein paar neu Features seit Version {{ page.previousVersion }} (Subsurface 4.9.2 wurde zwar erzeugt, aber niemals angekündigt).
 
