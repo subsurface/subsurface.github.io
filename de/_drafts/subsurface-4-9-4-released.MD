@@ -8,57 +8,62 @@ previousVersion: 4.9.3
 ref: subsurface-4.9.4
 ---
 
-Das Subsurfe-Entwicklingsteam ist stolz, die Version {{ page.version }} von Subsurface anzukündigen, einem Open-Source Tauchlogbuch und -Planungsprogramm für Windows, Mac und Linux.
+Das Subsurface-Entwicklungsteam ist stolz, die Version {{ page.version }} von Subsurface anzukündigen, einem Open-Source Tauchlogbuch und -Planungsprogramm für Windows, Mac und Linux.
 
-Diese Version behebt eine Reihe von Fehlern und bringt ausserdem ein paar neu Features seit Version {{ page.previousVersion }}. Einige der Neuerungen in Subsurface {{ page.version }}:
+Diese Version behebt eine Reihe von Fehlern und bringt ausserdem ein paar neue Features seit Version {{ page.previousVersion }}. Einige der Neuerungen in Subsurface {{ page.version }}:
 
 # neue Features:
 
-  - maps: show the dive site as marker when opening Google Maps
+  - Karte: Zeigt den Tauchplatz als Marker in Google Maps
 
-  - undo: implement undo of event handling (viz. bookmarks, setpoints, gas switches)
+  - Undo: Rückgängigmachen von Bearbeitung von Ereignissen
+    (Lesezeichen, Setpoints, Gaswechsel)
 
-  - undo: make dive replanning undoable
+  - Undo: Veränderung von Tauchgängen im Planer kann rückgängig
+    gemacht werden
 
-  - dive-list: implement dive invalidation
+  - Tauchgangsliste: Tauchgänge können ungültig gemacht werden.
 
-  - filter: implement fulltext search
+  - Filter: Volltextsuche
 
-  - filter: add starts-with and exact filter modes for textual search
+  - Filter: Beginnt-mit und genaue Übereinstimmung bei Suche
 
-  - dive-info: add the ability to modify dive salinity
+  - Salzgehalt kann eingestellt werden
 
-  - dive-info: add current GF to infobox
+  - Momentaner Gradientenfaktor wird in der Infobox angezeigt
 
-  - dive-info: remove restriction on number of cylinders
+  - Keine Beschänkung der Tauchflaschenzahl mehr
 
-  - UI: increase speed of multi-trip selection
+  - Beschleunigung beim Anwählen vieler Reisen
 
-  - planner: add checkbox on considering oxygen narcotic
+  - Im Planer kann eingestellt werden, ob Sauerstoff als narkotisch
+    behandelt werden soll
 
-  - planner: improve rounding of stop durations in planner notes
+  - Planner: Verbesserte Rundung bei der Anzeige von Stopplängen im Dekoplan
 
 # behobene Fehler:
 
-  - fix creation of new cylinder types (names couldn’t be the start of already existing names)
+  - Flaschenbezeichnungen können jetzt auch mit bereits bekannten
+    Namen beginnen
 
-  - fix tab-order in filter widget
+  - Reihenfolge der Reiter im Filter-Widget
 
-  - ignore dive sites without location in proximity search
+  - Ignoriert Tauchplätze ohne Koordinaten in der Umgebungssuche
 
-  - fix issue with Linux AppImage failing to communicate with Bluetooth dive computers \[\#2370\]
+  - behebt Problem des AppImage in der Kommunikation mit Bluetooth-Tauchcomputern
 
-  - allow copy\&pasting of multiple cylinders \[\#2386\]
+  - Kopieren-Einfügen von mehreren Flaschen
 
-  - don’t output random SAC values for cylinders without data \[\#2376\]
+  - Keine fälschlichen-AMV Werte für Flaschen ohne ausreichende Daten
 
-  - register changes when clicking "done" on dive-site edit screen
+  - Speichern von Änderungen beim Klicken auf der Tauchplatz-Bearbeitungsseite
 
-  - update statistics tab on undo or redo
+  - Statistikreiter wird bei Undo und Redo aktualisiert
 
-  - update dive details when replanning dive \[\#2280\]
+  - Tauchgangsdetails werden beim Wieder-Planen aktualisiert
 
-  - when exporting dive sites in dive site mode, export selected dive sites \[\#2275\]
+  - Beim Exportieren von Tauchplätzen werden die angewählten
+    Tauchplätze exportier
 
 # libdivecomputer:
 
