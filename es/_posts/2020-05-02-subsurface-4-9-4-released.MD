@@ -3,7 +3,6 @@ layout: post
 title:  "Lanzamiento de Subsurface 4.9.4"
 lang:   "es"
 categories: release
-date:   2020-04-28 08:00:00 -0700
 version: 4.9.4
 previousVersion: 4.9.3
 ref: subsurface-4.9.4
