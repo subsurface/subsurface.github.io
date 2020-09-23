@@ -10,7 +10,7 @@ ref: subsurface-4.9.7
 
 El equipo de desarrollo de Subsurface se complace en anunciar el lanzamiento de la versión {{ page.Version }} de Subusurface, un divelog y planificador de inmersiones de código abierto para Windows, Mac y Linux.
 
-Esta versión corrige un problema significativo en {{ page.previousVersion }} y añade un par de pequeñas mejoras así como soporte para algunos nuevos ordenadores. Algunos de los cambio en {{ page.version }}:
+Esta versión corrige un problema significativo en {{ page.previousVersion }} y añade un par de pequeñas mejoras así como soporte para algunos nuevos ordenadores. Algunos de los cambios en {{ page.version }}:
 
 # Nuevas funcionalidades:
 
@@ -28,7 +28,7 @@ Esta versión corrige un problema significativo en {{ page.previousVersion }} y 
 
   - Añade soporte para Oceans S1
 
-  - Añade reconocimiento automático de más ordenadores
+  - Añade reconocimiento automático por BlueTooth de más ordenadores
 
 # Resolución de errores:
 
