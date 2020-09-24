@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ankündigung der Version 4.9.6 von Subsurface"
-lang:   "en"
+lang:   "de"
 categories: release
 version: 4.9.6
 previousVersion: 4.9.5
