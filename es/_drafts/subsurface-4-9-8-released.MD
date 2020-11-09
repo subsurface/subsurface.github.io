@@ -16,7 +16,9 @@ Esta versión corrige un problema significativo en {{ page.previousVersion }} y 
 
  - Filtro: Sistema de filtrado más flexible basado en restricciones individuales
 
- - Añade soporte para Garmin Descent Mk2/Mk2i en Linux, macOS, y Windows de 64 bits.
+ - Añade soporte para Garmin Descent Mk2/Mk2i en Linux, macOS, y Windows de 64 bits
+
+ - Añade soporte para Scubapro Aladin A2
 
  - Escritorio: Se permite añadir inmersiones a cualquier viaje
 
