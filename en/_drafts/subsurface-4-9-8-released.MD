@@ -18,6 +18,8 @@ This release fixes a number of issues in {{ page.previousVersion }} and adds a c
 
  - add Garmin Descent Mk2/Mk2i support for Linux, macOS, and 64bit Windows
 
+ - add Scubapro Aladin A2 support
+
  - desktop: allow adding dives to arbitrary trips
 
  - equipment: use pO2 from prefernces for MOD display
