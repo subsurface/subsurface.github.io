@@ -1,0 +1,102 @@
+---
+layout: page
+title: Download
+lang: en
+permalink: /download/
+ref: download
+---
+<html>
+<head>
+<script src="https://kit.fontawesome.com/865a3fc002.js" crossorigin="anonymous"></script> 
+<style>
+{% include download.css %}
+</style>
+</head>
+<body>
+<p>The Subsurface team makes a number of installers available for our users. Some of them are available as direct downloads from this site, some of them are made available through established Linux distribution mechanisms.</p>
+<p>The latest version of Subsurface is <strong>{{ site.latest }}</strong> - sometimes it takes a few days until all of the various binaries are updated.</p>
+
+<h2>Windows</h2>
+<p>
+The Subsurface installers support Windows 7, 8, and 10, both 32bit and 64bit. Bluetooth Low Energy support requires Windows 10. MTP support (currently only needed for the Garmin Descent Mk2/Mk2i) requires 64bit.
+</p>
+<center>
+<a class="face-button" href="http://subsurface-divelog.org/downloads/subsurface-{{ site.latest }}.exe">
+  <div class="face-primary"><i class="fas fa-file-download"></i></span> Windows (64bit) </div>
+  <div class="face-secondary"><i class="fas fa-file-download"></i> Download .EXE</div>
+</a>
+<a class="face-button" href="https://subsurface-divelog.org/downloads/subsurface-32bit-{{ site.latest }}.exe">
+  <div class="face-primary"><i class="fas fa-file-download"></i></span> Windows (32bit) </div>
+  <div class="face-secondary"><i class="fas fa-file-download"></i> Download .EXE</div>
+</a>
+</center>
+
+<h2>macOS</h2>
+<p>
+Subsurface runs on Intel based Macs with macOS 10.12 or newer. For technical reasons, there are three different DMGs available.
+<p>
+<center>
+<a class="face-button" href="https://subsurface-divelog.org/downloads/Subsurface-{{ site.latest }}-10.15+11.0.dmg">
+  <div class="face-primary"><i class="fas fa-file-download"></i></span> macOS 10.15 / 11.0 </div>
+  <div class="face-secondary"><i class="fas fa-file-download"></i> Download .DMG</div>
+</a>
+<br/>
+<a class="face-button" href="https://subsurface-divelog.org/downloads/Subsurface-{{ site.latest }}-10.13+14.dmg">
+  <div class="face-primary"><i class="fas fa-file-download"></i></span> macOS 10.13 / 10.14 </div>
+  <div class="face-secondary"><i class="fas fa-file-download"></i> Download .DMG</div>
+</a>
+<a class="face-button" href="https://subsurface-divelog.org/downloads/Subsurface-{{ site.latest }}-10.12.dmg">
+  <div class="face-primary"><i class="fas fa-file-download"></i></span> macOS 10.12 </div>
+  <div class="face-secondary"><i class="fas fa-file-download"></i> Download .DMG</div>
+</a>
+</center>
+
+<h2>Linux</h2>
+
+<p>Linux makes it much harder to offer binaries given the vast number of distributions with different mechanisms for making packages available. The Subsurface developers are trying to make packages available for the most popular distributions (and in the most popular formats):</p>
+
+<h3>Ubuntu and compatible distros</h3>
+<p>For many users the Snap may be the easiest solution, a native package can be installed by adding the <code>ppa:subsurface/subsurface</code> PPA to your system.</p>
+<center>
+<a class="face-button" href="https://snapcraft.io/subsurface">
+  <div class="face-primary"><i class="fas fa-external-link-alt"></i></i></span> Snap</div>
+  <div class="face-secondary"><i class="fas fa-external-link-alt"></i></i> Install via Snap </div>
+</a>
+</center>
+
+<h3>Fedora and openSUSE</h3>
+<p>Many current and still maintained versions across several architectures are available via OBS.</p>
+<center>
+<a class="face-button" href="https://software.opensuse.org/download.html?project=home:Subsurface-Divelog&package=subsurface">
+  <div class="face-primary"><i class="fas fa-external-link-alt"></i></i></span> openSUSE/Fedora</div>
+  <div class="face-secondary"><i class="fas fa-external-link-alt"></i></i> Install via OBS </div>
+</a>
+</center>
+
+<h3>generic AppImage</h3>
+<p>If your distribution isn't supported above and you are running on an x86-64 platform, usually an AppImage is a viable solution. 
+You should be able to download this file, make it executable <code>chmod +x Subsurface-{{ site.latest }}-x86_64.AppImage</code> and then simply run this file.
+<center>
+<a class="face-button" href="http://subsurface-divelog.org/downloads/Subsurface-{{ site.latest }}-x86_64.AppImage">
+  <div class="face-primary"><i class="fas fa-file-download"></i></i></span> AppImage</div>
+  <div class="face-secondary"><i class="fas fa-file-download"></i></i> Download AppImage </div>
+</a>
+</center>
+
+<h2>Sources</h2>
+<p>Sources are of course available via git or as a release tar-ball Subsurface-{{ site.latest }}.tgz. </p>
+<center>
+<a class="face-button" href="https://github.com/subsurface/subsurface">
+  <div class="face-primary"><i class="fas fa-external-link-alt"></i></i></span> git repo</div>
+  <div class="face-secondary"><i class="fas fa-external-link-alt"></i></i> Browse git repo </div>
+</a>
+<a class="face-button" href="http://subsurface-divelog.org/downloads/Subsurface-{{ site.latest }}.tgz">
+  <div class="face-primary"><i class="fas fa-file-download"></i></i></span> Source tar file</div>
+  <div class="face-secondary"><i class="fas fa-file-download"></i></i> Download .tgz </div>
+</a>
+</center>
+<p>
+<br/>
+The sources of the GPL and LGPL components shipped with the Mac and Windows binaries can be found at <a href="http://brew.sh/">Homebrew</a> and <a href="http://mxe.cc">MXE</a>. The Subsurface sources come with all scripts needed to build both Subsurface and its dependencies for Windows, Mac and Linux.</p>
+</body>
+</html>
