@@ -12,12 +12,15 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
+
+## our site wide variables
+latest: 4.9.10
+
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
 title: Subsurface
 author: "The Subsurface Developers"
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -61,6 +64,7 @@ languages:
     userForum: "user forum"
 
 permalink: /:categories/:year/:month/:title/
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
