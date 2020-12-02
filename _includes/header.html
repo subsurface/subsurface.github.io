@@ -33,12 +33,18 @@
               {%- endif -%}
             {%- endfor -%}
           {%- endfor -%}
+	<br/>
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title and my_page.ref != "index" and my_page.lang == page.lang -%}
               <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
+            {%- if my_page.title and my_page.ref == "index" and my_page.lang == page.lang -%}
+              {%- assign newsurl = my_page.url | relative_url -%}
+              {%- assign newstitle = my_page.title | escape -%}
+            {%- endif -%}
           {%- endfor -%}
+          <a class="page-link" href="{{ newsurl }}">{{ newstitle }}</a>
         </div>
       </nav>
     {%- endif -%}

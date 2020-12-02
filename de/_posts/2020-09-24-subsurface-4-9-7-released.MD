@@ -13,7 +13,7 @@ Das Subsurface-Entwicklungsteam ist stolz, die Version {{ page.version }} von Su
 Diese Version behebt einige Probleme von {{ page.previousVersion }}
 und enth&auml;lt einige Verbesserungen sowie Unterst&uuml;tzung
 f&uuml;r eine Zahl neuer Tauchcomputer. Einige der Neuerungen
-in Subsurface { page.version }}:
+in Subsurface {{ page.version }}:
 
 # Neue Features:
 
@@ -26,7 +26,7 @@ in Subsurface { page.version }}:
 
   - Unterst&uuml;tzung f&uuml;r Aqualung: i470TC
 
-  - Unterst&uuml;tzung f&uuml;r r Liquivision Kaon, Lynx, Xen, Xeo
+  - Unterst&uuml;tzung f&uuml;r Liquivision Kaon, Lynx, Xen, Xeo
 
   - Unterst&uuml;tzung f&uuml;r McLean Extreme
 
