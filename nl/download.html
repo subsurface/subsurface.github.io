@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Download
-lang: en
-permalink: /download/
+title: Downloaden
+lang: nl
+permalink: /nl/download/
 ref: download
 ---
 <html>
@@ -13,12 +13,12 @@ ref: download
 </style>
 </head>
 <body>
-<p>The Subsurface team makes a number of installers available for our users. Some of them are available as direct downloads from this site, some of them are made available through established Linux distribution mechanisms.</p>
-<p>The latest version of Subsurface is <strong>{{ site.latest }}</strong> - sometimes it takes a few days until all of the various binaries are updated.</p>
+<p>Het Subsurface ontwikkelteam stelt een aantal installatiepakketten ter beschikking voor onze gebruikers. Velen kunnen rechtstreeks vanaf deze site worden gedownload, andere zijn beschikbaar via de standaard Linux-distributie mechanismen.</p>
+<p>De laatste versie van Subsurface is <strong>{{ site.latest }}</strong> - soms duurt het een paar dagen voordat de verschillende installeerbare bestanden zijn bijgewerkt.</p>
 
 <h2>Windows</h2>
 <p>
-The Subsurface installers support Windows 7, 8, and 10, both 32bit and 64bit. Bluetooth Low Energy support requires Windows 10. MTP support (currently only needed for the Garmin Descent Mk2/Mk2i) requires 64bit.
+De Subsurface installatiepakketten ondersteunen Windows 7, 8 en 10, zowel 32bit als 64bit. Bluetooth Low Energy ondersteuning vereist Windows 10. MTP ondersteuning (op dit moment alleen nodig voor de Garmin Descent Mk2/Mk2i) vereist 64bit.
 </p>
 <center>
 <a class="face-button" href="https://subsurface-divelog.org/downloads/subsurface-{{ site.latest }}.exe">
@@ -33,7 +33,7 @@ The Subsurface installers support Windows 7, 8, and 10, both 32bit and 64bit. Bl
 
 <h2>macOS</h2>
 <p>
-Subsurface runs on Intel based Macs with macOS 10.12 or newer. For technical reasons, there are three different DMGs available.
+Subsurface draait op Intel-gebaseerde Macs met macOS 10.12 of nieuwer. Vanwege technische redenen zijn er drie verschillende DMG's beschikbaar.
 <p>
 <center>
 <a class="face-button" href="https://subsurface-divelog.org/downloads/Subsurface-{{ site.latest }}-10.15+11.0.dmg">
@@ -53,10 +53,10 @@ Subsurface runs on Intel based Macs with macOS 10.12 or newer. For technical rea
 
 <h2>Linux</h2>
 
-<p>Linux makes it much harder to offer binaries given the vast number of distributions with different mechanisms for making packages available. The Subsurface developers are trying to make packages available for the most popular distributions (and in the most popular formats):</p>
+<p>Linux maakt het veel moeilijker om installeerbare bestanden aan te bieden vanwege het grote aantal distributies met verschillende mechanismen om pakketten beschikbaar te maken. De Subsurface ontwikkelaars proberen pakketten beschikbaar te maken voor de meest gebruikte distributies (en in de meest gebruikte formaten):</p>
 
-<h3>Ubuntu and compatible distros</h3>
-<p>For many users the Snap may be the easiest solution, a native package can be installed by adding the <code>ppa:subsurface/subsurface</code> PPA to your system.</p>
+<h3>Ubuntu en compatibele distributies</h3>
+<p>Voor veel gebruikers is een Snap wellicht de eenvoudigste manier, een installatie kan worden uitgevoerd door de <code>ppa:subsurface/subsurface</code> PPA toe te voegen aan je systeem.</p>
 <center>
 <a class="face-button" href="https://snapcraft.io/subsurface">
   <div class="face-primary"><i class="fas fa-external-link-alt"></i></i> Snap</div>
@@ -65,7 +65,7 @@ Subsurface runs on Intel based Macs with macOS 10.12 or newer. For technical rea
 </center>
 
 <h3>Fedora and openSUSE</h3>
-<p>Many current and still maintained versions across several architectures are available via OBS.</p>
+<p>Veel huidige en nog steeds onderhouden versies en architecturen zijn beschikbaar via OBS.</p>
 <center>
 <a class="face-button" href="https://software.opensuse.org/download.html?project=home:Subsurface-Divelog&package=subsurface">
   <div class="face-primary"><i class="fas fa-external-link-alt"></i></i> openSUSE/Fedora</div>
@@ -73,9 +73,9 @@ Subsurface runs on Intel based Macs with macOS 10.12 or newer. For technical rea
 </a>
 </center>
 
-<h3>generic AppImage</h3>
-<p>If your distribution isn't supported above and you are running on an x86-64 platform, usually an AppImage is a viable solution. 
-You should be able to download this file, make it executable <code>chmod +x Subsurface-{{ site.latest }}-x86_64.AppImage</code> and then simply run this file.
+<h3>generieke AppImage</h3>
+<p>Als uw distributie hierboven niet wordt ondersteund en u draait op een x86-64-platform, dan is een AppImage meestal een werkende oplossing.
+Download dit bestand, maak het uitvoerbaar met <code>chmod +x Subsurface-{{ site.latest }}-x86_64.AppImage</code> en dan eenvoudig dit bestand uitvoeren.</p>
 <center>
 <a class="face-button" href="https://subsurface-divelog.org/downloads/Subsurface-{{ site.latest }}-x86_64.AppImage">
   <div class="face-primary"><i class="fas fa-file-download"></i></i> AppImage</div>
@@ -83,8 +83,8 @@ You should be able to download this file, make it executable <code>chmod +x Subs
 </a>
 </center>
 
-<h2>Sources</h2>
-<p>Sources are of course available via git or as a release tar-ball Subsurface-{{ site.latest }}.tgz. </p>
+<h2>Broncode</h2>
+<p>De broncode is natuurlijk beschikbaar op git of als een release tar-ball Subsurface-{{ site.latest }}.tgz.</p>
 <center>
 <a class="face-button" href="https://github.com/subsurface/subsurface">
   <div class="face-primary"><i class="fas fa-external-link-alt"></i></i> git repo</div>
@@ -97,6 +97,6 @@ You should be able to download this file, make it executable <code>chmod +x Subs
 </center>
 <p>
 <br/>
-The sources of the GPL and LGPL components shipped with the Mac and Windows binaries can be found at <a href="http://brew.sh/">Homebrew</a> and <a href="http://mxe.cc">MXE</a>. The Subsurface sources come with all scripts needed to build both Subsurface and its dependencies for Windows, Mac and Linux.</p>
+De broncode van de GPL and LGPL componenten die in de Mac en Windows versies worden gebruikt, staan op <a href="http://brew.sh/">Homebrew</a> en <a href="http://mxe.cc">MXE</a>. De Subsurface broncode komt met alle scripts die nodig zijn om zowel Subsurface als de bijbehorende componenten voor Windows, Mac en Linux te maken.</p>
 </body>
 </html>
