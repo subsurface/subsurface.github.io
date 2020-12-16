@@ -5,7 +5,7 @@ lang: en
 permalink: /about/
 ref: about
 ---
-Subsurface can **plan** and **track** single- and multi-tank **dives** using air, Nitrox or TriMix. It allows tracking of dive locations including GPS coordinates (which can also conveniently be entered using a map interface), logging of equipment used and names of other divers, and lets users rate dives and provide additional notes.
+Subsurface can **plan** and **track** single and multi-tank **dives** using air, Nitrox or TriMix. It allows tracking of dive locations including GPS coordinates (which can also conveniently be entered using a map interface), logging of equipment used and names of other divers, and lets users rate dives and provide additional notes.
 
 You can tag dives and **filter a dive list** based on criteria including tags, locations and people with whom you were diving. You can group the dive list into trips, and edit multiple dives at the same time, making it easy to support a large number of dives.
 

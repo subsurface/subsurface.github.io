@@ -2,6 +2,7 @@
 layout: page
 title: Über
 lang: de
+permalink: /de/about/
 ref: about
 ---
 Subsurface ist ein Tauchlogbuch, das es ermöglicht, Tauchgänge zu planen und Tauch-Daten von unterstützten Tauchcomputern herunterzuladen. Subsurface erlaubt eine innovative Visualisierung der Daten, die moderne Tauchcomputer während des Tauchgangs aufzeichnen. Eine Fülle weiterer Informationen zu den Tauchgängen können vom Benutzer komfortabel eingetragen und verwaltet werden. So können beispielsweise die verwendeten Atemgase, Ausrüstungsgegenstände oder Tauchpartner ebenso vermerkbar, wie Bewertungen und Notizen den jeweiligen Tauchgängen zugeordnet werden können. Weiterhin können die GPS-Koordinaten von Tauchplätzen verwaltet und auf einfache Weise mittels online-Kartenmaterial eingegeben werden.
@@ -14,7 +15,7 @@ Mehrere Taucher können gemeinsam eine Installation von Subsurface benutzen und 
 
 Subsurface kann in 20 Sprachen benutzt werden und wird von einer aktiven Entwicklergemeinde unterstützt.
 
-Wir verwalten eine lange Liste unterstützter Tauchcomputer. Existierende Logbucheinträge können unter anderem aus MacDive, Suunto DM3/4/5, JDiveLog und divelogs.de übernommen werden.
+Wir verwalten eine lange [Liste unterstützter Tauchcomputer](https://subsurface-divelog.org/documentation/supported-dive-computers/). Existierende Logbucheinträge können unter anderem aus MacDive, Suunto DM3/4/5, JDiveLog und divelogs.de übernommen werden.
 
 Eine weitere von Subsurfaces ausgeprägten Stärken ist die innovative Visualisierung der Daten. So bereitet Subsurface die Tauchprofil-Daten auf eine Weise auf, die dem Benutzer direkt seine momentane vertikal-Geschwindigkeit zeigt. Ebenso wird das momentane Atemvolumen visualisiert.
 
