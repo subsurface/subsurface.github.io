@@ -24,7 +24,7 @@ Subsurface berekent ook een breed scala aan **statistieken** van de duiken van d
 
 Het programma is vertaald in ongeveer **20 talen**, en wordt goed ondersteund door een actieve groep ontwikkelaars.
 
-Een van de belangrijkste troeven van Subsurface is de ondersteuning van een breed scala aan **duik computers** (zie de lijst van Ondersteunde computers). Subsurface kan ook bestaande duiklogboeken importeren uit diverse bronnen, waaronder MacDive, Suunto DM3, DM4 &amp; DM5, JDiveLog en divelogs.de.
+Een van de belangrijkste troeven van Subsurface is de ondersteuning van een breed scala aan **duik computers** (zie de [lijst van Ondersteunde computers](https://subsurface-divelog.org/documentation/supported-dive-computers/)). Subsurface kan ook bestaande duiklogboeken importeren uit diverse bronnen, waaronder MacDive, Suunto DM3, DM4 &amp; DM5, JDiveLog en divelogs.de.
 
 Een ander sterk punt is de **visualisatie** van het diepteprofiel (en, indien beschikbaar, de tankdruk grafiek) op innovatieve manieren die de gebruiker aanvullende informatie over de relatieve snelheid en kortstondige luchtverbruik geeft. Gebruikers die met **meerdere duikcomputers** duiken kunnen de gegevens uit elk van hun duikcomputers combineren in één profiel.
 

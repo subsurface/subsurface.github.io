@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Über
+title: Üeber
 lang: de
 ref: about
 ---
@@ -14,7 +14,7 @@ Mehrere Taucher können gemeinsam eine Installation von Subsurface benutzen und 
 
 Subsurface kann in 20 Sprachen benutzt werden und wird von einer aktiven Entwicklergemeinde unterstützt.
 
-Wir verwalten eine lange Liste unterstützter Tauchcomputer. Existierende Logbucheinträge können unter anderem aus MacDive, Suunto DM3/4/5, JDiveLog und divelogs.de übernommen werden.
+Wir verwalten eine lange [Liste unterstützter Tauchcomputer](https://subsurface-divelog.org/documentation/supported-dive-computers/). Existierende Logbucheinträge können unter anderem aus MacDive, Suunto DM3/4/5, JDiveLog und divelogs.de übernommen werden.
 
 Eine weitere von Subsurfaces ausgeprägten Stärken ist die innovative Visualisierung der Daten. So bereitet Subsurface die Tauchprofil-Daten auf eine Weise auf, die dem Benutzer direkt seine momentane vertikal-Geschwindigkeit zeigt. Ebenso wird das momentane Atemvolumen visualisiert.
 
