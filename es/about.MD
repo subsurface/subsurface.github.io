@@ -2,6 +2,7 @@
 layout: page
 title: Acerca de
 lang: es
+permalink: /es/about/
 ref: about
 ---
 Subsurface puede **guardar** y **planificar** inmersiones con una sola o múltiples botellas, utilizando aire, nitrox o trimix. Así mismo permite clasificar puntos de buceo incluyendo coordenadas GPS (que, también pueden introducirse utilizando un mapa), registrar el equipo utilizado y los nombres de otros buceadores, y permite al usuario puntuar las inmersiones y proporcionar notas adicionales.
@@ -12,5 +13,5 @@ Subsurface también calcula una variedad de **estadísticas** de los buceos del 
 
 El programa está traducido a más de **20 idiomas** y bien mantenido por una activa comunidad de desarrolladores.
 
-Una de los puntos fuertes de Subsurface es el soporte de una amplia variedad de **ordenadores de buceo** (visita la https://subsurface-divelog.org/documentation/supported-dive-computers/[lista de ordenadores soportados]). Subsurface también puede importar inmersiones desde otros softwares de divelog entre los que se incluyen MacDive, Suunto DM3, DM4 y DM5, JDiveLog y Divelogs.de.
+Una de los puntos fuertes de Subsurface es el soporte de una amplia variedad de **ordenadores de buceo** (visita la [lista de ordenadores soportados](https://subsurface-divelog.org/documentation/supported-dive-computers/)). Subsurface también puede importar inmersiones desde otros softwares de divelog entre los que se incluyen MacDive, Suunto DM3, DM4 y DM5, JDiveLog y Divelogs.de.
 
