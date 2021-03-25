@@ -34,7 +34,7 @@ This version also fixes a few bugs in {{ page.previousVersion }}. Changes in Sub
 
 - take into account PSCR pO2 drop when computing CNS and OTU
 
-- fix OTU und CNS calculations for CCR dives at shallow depths
+- fix OTU and CNS calculations for CCR dives at shallow depths
 
 - undo: save to git after editing weights
 
