@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Subsurface 4.9.9 released"
+title:  "Lançado o Subsurface 4.9.9"
 lang:   "pt"
 categories: release
 version: 4.9.9
