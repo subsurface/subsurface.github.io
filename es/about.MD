@@ -13,5 +13,8 @@ Subsurface también calcula una variedad de **estadísticas** de los buceos del 
 
 El programa está traducido a más de **20 idiomas** y bien mantenido por una activa comunidad de desarrolladores.
 
-Una de los puntos fuertes de Subsurface es el soporte de una amplia variedad de **ordenadores de buceo** (visita la [lista de ordenadores soportados](https://subsurface-divelog.org/documentation/supported-dive-computers/)). Subsurface también puede importar inmersiones desde otros softwares de divelog entre los que se incluyen MacDive, Suunto DM3, DM4 y DM5, JDiveLog y Divelogs.de.
+Uno de los puntos fuertes de Subsurface es el soporte de una amplia variedad de **ordenadores de buceo** (visita la [lista de ordenadores soportados](https://subsurface-divelog.org/documentation/supported-dive-computers/)). Subsurface también puede importar inmersiones desde otros softwares de divelog entre los que se incluyen MacDive, Suunto DM3, DM4 y DM5, JDiveLog y Divelogs.de.
 
+Otro punto fuerte es su capacidad de **visualizar** el perfil de profundidad (y, si está disponible, la curva de presión de la botella) de forma innovadora que ofrece al usuario información adicional sobre la velocidad ascensional relativa y el consumo momentáneo de aire durante la inmersión. Los usuarios que bucean con **varios ordenadores de buceo** pueden combinar los datos en una sola inmersión, permitiendo así la visualización de datos de varias fuentes diferentes.
+
+Subsurface permite al usuario **imprimir** un divelog detallado incluyendo los perfiles y otra información importante.
