@@ -34,6 +34,8 @@ Changes in Subsurface {{ page.version }}:
 
 - add support for new gas change data from EON Steel with FW 2.5
 
+- add support for the latest Mares Genius firmware
+
 - add textual serial number support for many dive computers
 
 # bugfixes:
