@@ -35,7 +35,7 @@ CCR-Modus
 
 - Sherwood Sage Unterst&uuml;tzung
 
-- Unterst&uuml;tzung f&uml;r 2021er Modelle von Ratio
+- Unterst&uuml;tzung f&uuml;r 2021er Modelle von Ratio
 
 # Bugfixes:
 
