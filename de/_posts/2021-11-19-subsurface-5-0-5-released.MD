@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ankündigung der Version 5.0.5 von Subsurface"
-lang:   "en"
+lang:   "de"
 categories: release
 version: 5.0.5
 previousVersion: 5.0.4
