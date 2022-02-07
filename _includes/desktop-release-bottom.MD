@@ -9,7 +9,7 @@
 <p><strong>Linux: Snap</strong><a href="https://snapcraft.io/subsurface"><img alt="Installieren vom Snap Store" src="https://snapcraft.io/static/images/badges/de/snap-store-black.svg" /></a></p>
 <p><strong>Linux: Ubuntu:</strong> Trage <code>ppa:subsurface/subsurface</code> in die Software Sources ein; die .deb Dateien in diesem PPA kÃ¶nnen auch auf hinreichend neuen <strong>LinuxMint</strong> Distributionen installiert werden; siehe die <a href="https://subsurface-divelog.org/download/">Programme herunterladen</a>-Seite und <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> für die aktuelle Version.</p>
 <p><strong>Linux: openSUSE / Fedora:</strong> Rufe unsere <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">Open Build Service Release Seite</a> auf.</p>
-<p>Wir freuen uns über Nachrichten zu Fehlern in Subsurface in unserem <a href="https://subsurface-divelog.org/user-forum/">Benutzer-Forum</a>. Außerdem haben wir einen <a href="https://github.com/Subsurface/subsurface/issues">Bugtracker</a> auf dem solche Berichte eingestellt und bearbeitet werden kÃ¶nnen.</p>
+<p>Wir freuen uns über Nachrichten zu Fehlern in Subsurface in unserem <a href="https://groups.google.com/g/subsurface-divelog">Benutzer-Forum</a>. Außerdem haben wir einen <a href="https://github.com/Subsurface/subsurface/issues">Bugtracker</a> auf dem solche Berichte eingestellt und bearbeitet werden kÃ¶nnen.</p>
 
 {% elsif page.lang == "es" %}
 <h1>¿ Donde puedo encontrar los binarios ?</h1>
@@ -22,7 +22,7 @@
 <p><strong>Linux: Snap</strong><a href="https://snapcraft.io/subsurface"><img alt="Instalar desde Snap Store" src="https://snapcraft.io/static/images/badges/es/snap-store-black.svg" /></a></p>
 <p><strong>Linux: Ubuntu: </strong>Añade <code>ppa:subsurface/subsurface</code> a tus fuentes de software; los archivos .deb en esta PPA tambien pueden instalarse en versiones suficientemente actualizadas de <strong>LinuxMint</strong>; visita la <a href="https://subsurface-divelog.org/download/">Página de descargas</a> y utiliza <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> para obtener nuestra última versión.</p>
 <p><strong>Linux: openSUSE / Fedora:</strong> Visita nuestro <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&package=subsurface"> site del servicio de compilación</a></p>
-<p>Por favor, publica preguntas o problemas en el <a href="https://subsurface-divelog.org/user-forum/">Foro de usuarios</a> o comunica un fallo en nuestro <a href="https://github.com/Subsurface/subsurface/issues">Bug Tracker</a>.</p>
+<p>Por favor, publica preguntas o problemas en el <a href="https://groups.google.com/g/subsurface-divelog">Foro de usuarios</a> o comunica un fallo en nuestro <a href="https://github.com/Subsurface/subsurface/issues">Bug Tracker</a>.</p>
 {% elsif page.lang == "pt" %}
 
 <h1>Onde posso encontrar os ficheiros binários</h1>
@@ -35,7 +35,7 @@
 <p><strong>Linux: Snap</strong><a href="https://snapcraft.io/subsurface"> <img alt="Disponível na Snap Store" src="https://snapcraft.io/static/images/badges/pt/snap-store-black.svg" /> </a></p>
 <p><strong>Linux: Ubuntu: </strong>Adicione <code>ppa:subsurface/subsurface</code> aos seus repositórios de software; os ficheiros .deb nesse PPA podem ser instalados em versões correntes do <strong>LinuxMint</strong>; ver a página dos <a href="https://subsurface-divelog.org/download/">Downloads</a> e usas <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> para obter a nossa versão mais recente.</p>
 <p><strong>Linux: openSUSE / Fedora:</strong> vá a <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&package=subsurface">open build service release page</a></p>
-<p>Por favor coloque questões ou problemas no nosso <a href="https://subsurface-divelog.org/user-forum/">Fórum de utilizadores</a> ou preencha um bug no nosso <a href="https://github.com/Subsurface/subsurface/issues">Bug Tracker</a>.</p>
+<p>Por favor coloque questões ou problemas no nosso <a href="https://groups.google.com/g/subsurface-divelog">Fórum de utilizadores</a> ou preencha um bug no nosso <a href="https://github.com/Subsurface/subsurface/issues">Bug Tracker</a>.</p>
 
 {% elsif page.lang == "nl" %}
 
@@ -48,7 +48,7 @@
 <p><strong>Linux: Snap</strong><a href="https://snapcraft.io/subsurface"> <img alt="Get it from the Snap Store" src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" /> </a></p>
 <p><strong>Linux: Ubuntu: </strong>Voeg <code>ppa:subsurface/subsurface</code> toe aan je software bronnen; de .deb files in deze PPA kunnen ook op redelijk recente versies van <strong>LinuxMint</strong>; zie de <a href="https://subsurface-divelog.org/nl/downloads/">Downloads</a> pagina en gebruik <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> om de laatste versie te downloaden.</p>
 <p><strong>Linux: openSUSE / Fedora:</strong> ga naar onze <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">open build service release page</a></p>
-<p>Post vragen of problemen op het <a href="https://subsurface-divelog.org/nl/user-forum-nl/">User Forum</a> of rapporteer een fout in onze <a href="https://github.com/Subsurface/subsurface/issues">Bug Tracker</a>.</p>
+<p>Post vragen of problemen op het <a href="https://groups.google.com/g/subsurface-divelog">User Forum</a> of rapporteer een fout in onze <a href="https://github.com/Subsurface/subsurface/issues">Bug Tracker</a>.</p>
 
 {% else %}
 
@@ -62,5 +62,5 @@
 <p><strong>Linux: Snap</strong><a href="https://snapcraft.io/subsurface"> <img alt="Get it from the Snap Store" src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" /> </a></p>
 <p><strong>Linux: Ubuntu: </strong>Add <code>ppa:subsurface/subsurface</code> to your software sources; the .deb files in that PPA can also be installed on sufficiently current versions <strong>LinuxMint</strong>; see the <a href="https://subsurface-divelog.org/download/">Downloads</a> page and use <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> to get our latest release version.</p>
 <p><strong>Linux: openSUSE / Fedora:</strong> go to our <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&package=subsurface">open build service release page</a></p>
-<p>Please post questions of problems in the <a href="https://subsurface-divelog.org/user-forum/">User Forum</a> or file a bug in our <a href="https://github.com/Subsurface/subsurface/issues">Bug Tracker</a>.</p>
+<p>Please post questions of problems in the <a href="https://groups.google.com/g/subsurface-divelog">User Forum</a> or file a bug in our <a href="https://github.com/Subsurface/subsurface/issues">Bug Tracker</a>.</p>
 {% endif %}
