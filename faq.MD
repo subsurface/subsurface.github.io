@@ -13,46 +13,46 @@ faq_general:
     content: Most likely you are expecting the gas consumption calculation to follow the naive idea gas laws. Unfortunately, real gases aren't ideal gases. And Subsurface [takes the compressibility of gases into account](https://thetheoreticaldiver.org/wordpress/index.php/2017/11/02/when-real-gas-corrections-matter/).
 
 faq_windows:
-  - title: supported versions
+  - title: Supported versions
     content: Subsurface runs on Windows 10 and 11. It should still run on Windows 8 (but then, why would you want to run that). Older versions aren't supported anymore. Please look at the Windows section below for OS specific questions.
-  - title: where do I find the log files on Windows?
+  - title: Where do I find the log files on Windows?
     content: The logs are in `C:\Users\Home\AppData\Roaming\Subsurface` in the two files `subsurface_out.log` and `subsurface_err.log`
-  - title: which drivers do I need for my dive computer
-    content: great question
+  - title: Which drivers do I need for my dive computer
+    content: Great question
 
 faq_macos:
-  - title: supported versions
+  - title: Supported versions
     content: Subsurface runs on Intel Macs running macOS 10.13 and newer. Subsurface runs on M1 Macs in Rosettastone emulation mode. Please look at the macOS section below for OS specific questions.
-  - title: can you make binaries available for older macOS versions?
+  - title: Can you make binaries available for older macOS versions?
     content: Apple stopped supporting macOS 10.14 and older. We still support 10.13 and 10.14 - adding even older versions creates a lot of work for the developers for an increasingly small audience
   - title: I can't download from my Bluetooth dive computer on macOS 12 / Monterey
-    content: that is a known issue; we are working on a fix, but right now the only option is to download using a mobile device / Subsurface-mobile and sync your dive log using Subsurface Cloud.
-  - title: is there a native version of Subsurface for the Apple M1 based Macs
-    content: several of the key libraries that Subsurface is based on have only incomplete support for M1 based Macs. We are working on a limited M1 build, but for now you are better off running the Intel binaries.
+    content: That is a known issue; we are working on a fix, but right now the only option is to download using a mobile device / Subsurface-mobile and sync your dive log using Subsurface Cloud.
+  - title: Is there a native version of Subsurface for the Apple M1 based Macs
+    content: Several of the key libraries that Subsurface is based on have only incomplete support for M1 based Macs. We are working on a limited M1 build, but for now you are better off running the Intel binaries.
 
 faq_linux:
-  - title: supported versions
+  - title: Supported versions
     content: Subsurface can run on most Linux distributions. The developers actively maintain builds for current Fedora, openSUSE, and Ubuntu releases. There's also a Subsurface Snap and an AppImage. Generally try a distribution specific binary first. If that doesn't work, try the Snap or the AppImage. Please look at the Linux section below for more questions.
-  - title: can you add binaries for my favorite Linux distribution?
-    content: adding support for another Linux distribution is generally a lot of work and given the tiny user numbers not likely to happen. But please, talk to us if you think there is a distribution that we should add instead of the three that we currently support (Fedora, openSUSE, Ubuntu).
-  - title: can I build my own binaries?
-    content: yes, generally this is pretty easy (assuming you are somewhat familiar with C/C++ development under Linux). The `INSTALL` file in the source directory should get you started. Reach out to the developers if you need help beyond that (because likely that means we need to update the `INSTALL` file...)
+  - title: Can you add binaries for my favorite Linux distribution?
+    content: Adding support for another Linux distribution is generally a lot of work and given the tiny user numbers not likely to happen. But please, talk to us if you think there is a distribution that we should add instead of the three that we currently support (Fedora, openSUSE, Ubuntu).
+  - title: Can I build my own binaries?
+    content: Yes, generally this is pretty easy (assuming you are somewhat familiar with C/C++ development under Linux). The `INSTALL` file in the source directory should get you started. Reach out to the developers if you need help beyond that (because likely that means we need to update the `INSTALL` file...)
 
 faq_android:
-  - title: what's the minimum Android version required
-    content: currently the minimum is Android 5.0 (but many old Android versions have other issues running Subsurface-mobile, e.g. issues with the SSL certificates used on our servers).
-  - title: which dive computers can I directly download from when using Subsurface-mobile on Android
+  - title: What's the minimum Android version required
+    content: Currently the minimum is Android 5.0 (but many old Android versions have other issues running Subsurface-mobile, e.g. issues with the SSL certificates used on our servers).
+  - title: Which dive computers can I directly download from when using Subsurface-mobile on Android
     content: Bluetooth and BLE based dive computers as well USB serial dive computers should generally work (assuming they are supported by Subsurface at all, of course). What doesn't work are other USB devices (like USB HID (e.g., Suunto EON Steel family), USB storage (e.g., Uemis Zurich), MTP (e.g., Garmin)).
 
 faq_ios:
-  - title: which dive computers can I directly download from when using Subsurface-mobile on iOS
-    content: only Bluetooth and BLE based dive computers (that are already supported in Subsurface) work with iOS devices. No cable based downloads are possible.
+  - title: Which dive computers can I directly download from when using Subsurface-mobile on iOS
+    content: Only Bluetooth and BLE based dive computers (that are already supported in Subsurface) work with iOS devices. No cable based downloads are possible.
 
 faq_dc:
   - title: I get timeouts or data error when downloading
-    content: astoundingly commonly the reason are wet or dirty contacts or a low battery. It doesn't matter if the dive computer turns on. Download mode often requires much higher stable voltage to work. And sadly we even have seen situations where the vendor dive log will work (because it can do a much better job at 'error correction'), but Subsurface won't download until you have a fresh battery and really clean and really dry contacts.
+    content: Astoundingly commonly the reason are wet or dirty contacts or a low battery. It doesn't matter if the dive computer turns on. Download mode often requires much higher stable voltage to work. And sadly we even have seen situations where the vendor dive log will work (because it can do a much better job at 'error correction'), but Subsurface won't download until you have a fresh battery and really clean and really dry contacts.
   - title: BLE (Bluetooth Low Energy) downloads are incredibly slow
-    content: yes, yes they are. Since Subsurface supports BLE download from many different dive computers from many different vendors, the code is often not as well tuned for a specific dive computer as the vendor app can be. So unfortunately these downloads are painfully slow. Usually downloading a few dives a day is tedious, but not horrible. But especially a first download with a hundred or more dives can take an hour and longer - and sometimes it is hard to complete the download without running into errors that lead the download to abort. It really pays off to download early and often. And if the dive computer offers a way to download with a USB cable (in addition to BLE, like for example the Suunto EON Steel family), that is definitely preferable especially for that first download.
+    content: Yes, yes they are. Since Subsurface supports BLE download from many different dive computers from many different vendors, the code is often not as well tuned for a specific dive computer as the vendor app can be. So unfortunately these downloads are painfully slow. Usually downloading a few dives a day is tedious, but not horrible. But especially a first download with a hundred or more dives can take an hour and longer - and sometimes it is hard to complete the download without running into errors that lead the download to abort. It really pays off to download early and often. And if the dive computer offers a way to download with a USB cable (in addition to BLE, like for example the Suunto EON Steel family), that is definitely preferable especially for that first download.
   - title: Garmin Descent
     content: The Descent dive computers are only supported on Windows, macOS, and Linux, and only for cable based download. There are no plans to support BLE downloads on any platform.
   - title: Garmin Descent - directly importing '.FIT' files
