@@ -10,7 +10,7 @@ ref: subsurface-5.0.4
 
 Het Subsurface ontwikkelteam presenteert met trots versie {{ page.version }} van Subsurface, een open source duiklog en duikplan programma beschikbaar voor Windows, Mac en Linux.
 
-Deeze versie lost een aantal problemen op in {{ page.previousVersion }}.
+Deze versie lost een aantal problemen op in {{ page.previousVersion }}.
 
 Wijzigingen in Subsurface {{ page.version }}:
 
