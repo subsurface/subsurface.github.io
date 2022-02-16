@@ -1,8 +1,0 @@
-<ul class="jekyllcodex_accordion">
-    {% for item in include.items %}
-      {% capture unique_id %}element_{{ include.faq_section }}_{{ forloop.index }}{% endcapture %}
-      {% capture unique_link %}faq_{{ include.faq_section }}_{{ forloop.index }}{% endcapture %}
-        <li id="{{ unique_link }}"><input id="{{ unique_id }}" type="checkbox" /><label for="{{ unique_id }}">{{ item.title }}</label><div>{{ item.content | markdownify }}</div></li>
-    {% endfor %}
-</ul>
-
