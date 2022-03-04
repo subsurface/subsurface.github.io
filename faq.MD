@@ -215,6 +215,22 @@ Subsurface can store your dive log securely on the Cloud, backing up your data, 
 <br />
 If you wish to backup your log on a remote storage server, the documention describes how to store your data on DropBox or other similar services such as TeamDrive, MiniBox,etc.
 
+### How can I clear my settings
+
+Sometimes your settings may end up being messed up or corrupted. That should be quite rare, but when it happens there are two approaches to fixing the problem.
+<br />
+One, if you can still run Subsurface, open the preferences, pick 'Reset' at the very bottom of the left pane and click that button.
+<br />
+If that doesn't work it gets more complicated and things become OS dependent.
+<br />
+On Windows you need to delete the Subsurface Registry keys.
+<br />
+On macOS you need to delete `~/Library/Preferences/org.hohndel.subsurface.Subsurface.plist`  (the fact that this includes the name `hohndel` is the result of an unforunate early decision made ages ago that is rather hard to undo without breaking stuff).
+<br />
+On Linux it depends on a number of factors where the settings are, but usually it's `~/.config/Subsurface/Subsurface.conf`
+<br />
+Oh, and all of these names changes if you are using the `--user=...` feature to have different settings for different users.
+
 # Issues with specific dive computers
 
 ### Can you add support for dive computer X?
