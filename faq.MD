@@ -66,6 +66,10 @@ Most/all Windows Anti-Virus software packages support an “add exception” fea
 <br />
 In either case, please inform your AV software vendor of a “false positive” as we assure your that Subsurface is not malware.
 
+### Subsurface suddenly stops accessing the cloud
+
+This can have many reasons, but a really odd one we have found is that some anti-malware products on Windows seemingly randomly decide that the traffic between Subsurface and the cloud server is an indication of malware activity and interrupt the transmissions. This can lead to cloud storage corruption and prevents things from working. You may have to add an exception for Subsurface to your hyper-aggressive anti-malware tool.
+
 ## macOS
 
 ### How do I install Subsurface on MacOS?
