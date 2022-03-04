@@ -8,6 +8,7 @@ ref: faq
 
 <style>
 p:not(.outside) {margin: 1em 0 1em 2.5rem!important; border-bottom: 1px solid rgba(0,0,0,0.25); padding-bottom: 1rem;}
+p.noline,blockquote p {border-bottom: 0px!important; padding-bottom: 0px!important;}
 </style>
 
 <p class="outside">This page attempts to provide answers to some of the most common questions we keep receiving.</p>
@@ -43,7 +44,7 @@ Most likely you are expecting the gas consumption calculation to follow the naiv
 ## Windows
 
 ### How do I install Subsurface on Windows?
-[Download the installer](https://subsurface-divelog.org/download/) and double-click on it. You will get a warning that the installer is from an unknown publisher. Please click Yes to allow installation. Next you are presented with the license for Subsurface, after that you can choose where you would like to install Subsurface (the default should be reasonable in most cases) and the Start Menu Folder where a shortcut to call Subsurface and an entry to uninstall Subsurface will be installed.
+[Download the installer](https://subsurface-divelog.org/download/) and double-click on it. You will get a warning that the installer is from an unknown publisher (but should identify that publisher as Dirk Hohndel). Please click Yes to allow installation. Next you are presented with the license for Subsurface, after that you can choose where you would like to install Subsurface (the default should be reasonable in most cases) and the Start Menu Folder where a shortcut to call Subsurface and an entry to uninstall Subsurface will be installed.
 
 ### Supported versions
 
@@ -60,9 +61,9 @@ Great question - typically those are specific to the combination of dive compute
 ### Is there a virus in the Subsurface installer?
 
 If you get a warning message or if Subsurface is blocked by your anti virus (AV) software, that is almost certainly a false positive. Subsurface is not built on a Windows machine, it is cross built from source on Linux on a well maintained and clean server.
-
+<br /> <!-- adding an empty line in the .MD file creates a new paragraph which in turn creates a separator line when rendered -->
 Most/all Windows Anti-Virus software packages support an “add exception” feature, which skips an executable from being scanned. Try adding Subsurface to the list of non-harmful software. If the Subsurface installer download is detected as malware, please temporary disable your AV software until Subsurface is installed
-
+<br />
 In either case, please inform your AV software vendor of a “false positive” as we assure your that Subsurface is not malware.
 
 ## macOS
@@ -136,21 +137,20 @@ From the Help menu, select “Check for updates”.
 Also refer to the [News](https://subsurface-divelog.org/category/news/) section on the Subsurface website for announcements about new releases.
 
 ### How can I import my dives into Subsurface?
-There are multiple ways to import into Subsurface. From the User Manual,
-
-For manually logged dives:
+<p class="noline">There are multiple ways to import into Subsurface. From the User Manual,</p>
+<p class="noline">For manually logged dives:</p>
 > To add a dive to a dive log, select Log → Add Dive from the Main Menu. The program then shows three panels on which to enter information for a dive: two tabs in the Info panel (Notes and Equipment), as well as the Dive Profile panel that displays a graphical profile of each dive.
 
-To import from a dive computer:
+<p class="noline">To import from a dive computer:</p>
 > A dive computer can be hooked up to the user’s PC using these steps:
 > - The interface cable should be connected to a free USB port (or the Infra-red or Bluetooth connection set up as described later in this manual).
-> 
+> </br>
 > - The dive computer should be placed into PC Communication mode. (Refer to the manual of the specific dive computer).
-> 
+> </br>
 > - In Subsurface, from the Main Menu, select Import → Import From Dive Computer.
 
 Then, follow the prompts to select your particular dive computer. More detailed information can be found in the User Manual.
-
+<br />
 There is also the possiblity of adding dives from other software or websites. See the User Manual for the most up to date information on this – it can be found in Section 5.3.
 
 ### How can I use more than one tank with the same gas?
@@ -168,15 +168,15 @@ The CSV import has a couple of caveats. You should avoid some special characters
 ### How can I use Subsurface for multiple users?
 
 Potentially the best way to acheive this is to use multiple user accounts on the computer, all operating systems have built-in support for multiple users. This was the Subsurface configuration for each user is truely separated.
-
+<br />
 Potentially the easiest way to acheive this is to store logs of different users to separate log files. From Subsurface, you can open individual files for different divers and multiple users are supported quite well, the downside of this approach is that it's incompatible with Subsurface cloud storage.
-
+<br />
 A blend of these approaches where you want multi-user Subsurface support within a single computer user account then Subsurface has the ability to do this too, simply launch Subsurface with the *--user* flag e.g. *subsurface --user=joebloggs*. From this user-specific workspace you can then open either locally stored or cloud hosted dive logs.
 
 ### How can I load pictures and associate them with my dive?
 
 Select the dives you want to load and associate the pictures with. Then right click on one of the selected dives and select “Load images” from the popup menu. This will bring in a file selection dialog where you can select one or multiple pictures. When the selection is done and you hit Open, you get a new dialog where you can shift the times of the images. This is described in more detail in our user manual.
-
+<br />
 If you are having trouble with loading the images, check that you have at least one of the following tags in the Exif headers DateTimeOriginal or DateTime. We take the time from these fields to detect if the image was shot during the dive or not. If the picture is edited, you should store the original Exif information on the new/edited image for it to be loaded properly.
 
 ### Can I import my dives from my old log software?
@@ -186,29 +186,29 @@ Many common programs are already supported and we are always happy to try to add
 ### How do I download dives from my Bluetooth dive computer (e.g., Shearwater, OSTC)?
 
 Downloading dives over Bluetooth on all platforms is done using the “Choose Bluetooth download mode” option when downloading dives, and pairing with the detected dive computer. This is further explained in the [Subsurface User Manual](https://subsurface-divelog.org/documentation/subsurface-4-user-manual/).
-
+<br />
 Previous versions of Subsurface required setting up an RFCOMM connection from the command line before downloading dives from a Bluetooth enabled dive computer. This is no longer the case.
 
 ### How do I download dives from my Bluetooth LowEnergy, BLE, Bluetooth Smart dive computer (e.g., Shearwater Perdix AI, Shearwater Perdix (latest models), Suunto EON Steel)?
 
-At this point (February 2022, Subsurface 5.0.6 / Subsurface-mobile 3.4.1) the current release versions of Subsurface and Subsurface-mobile support connecting to dive computers over BLE on all supported platforms. We have seen reports where AppImages on Linux fail to connect to local BT/BLE devices, but native packages on Linux work.
+At this point (February 2022, Subsurface 5.0.6 / Subsurface-mobile 3.4.1) the current release versions of Subsurface and Subsurface-mobile support connecting to dive computers over BLE on all supported platforms with the exception of macOS 12. We have seen reports where AppImages on Linux fail to connect to local BT/BLE devices, but native packages on Linux work.
 
 ### I cannot download all my dives, only the most recent ones even though my dive computer's manual states that it records history of e.g. 999 dives.
 
 Dive history is different than the dive profiles on the log. The history only keeps track of the total number of dives and total amount of time spent below surface. The logs, on the other hand, store the dive profile, but they have limited amount of memory to do so. The exact amount of dive profiles that can be stored on the device depend on sample interval and duration of the dives. Once the memory is full the oldest dives get overwritten with new dives. Thus we are only able to download the last 13, 30 or 199 dives.
-
+<br />
 If you have downloaded your dives to different dive logging software before they were overwritten, there is a high chance that Subsurface can import these. However, if the logs are only on your dive computer, they cannot be salvaged after being over written by new dives.
 
 ### What to do when authentication to cloud storage fails?
 
 If you have configured your correct user credentials to Subsurface and cloud authentication still fails, try to change the password on Subsurface preferences. There has been a change in the cloud service that can cause an error on sync, but password change with correct credentials fixes the issue.
-
+<br />
 If your credentials are still not working or there is something else wrong, contact Dirk to sort it out.
 
 ### Can Subsurface store my files on a different cloud server?
 
 Subsurface can store your dive log securely on the Cloud, backing up your data, allowing you to view your dive logs on a desktop, Android and iOS apps. There is only one cloud server available (https://cloud.subsurface-divelog.org) allowing the developers the ability to enhance Subsurface, fix issues, and support users (with your permission) if something goes wrong with the CloudServer. This becomes unmanageable if multiple cloud servers are supported.
-
+<br />
 If you wish to backup your log on a remote storage server, the documention describes how to store your data on DropBox or other similar services such as TeamDrive, MiniBox,etc.
 
 # Issues with specific dive computers
@@ -216,7 +216,7 @@ If you wish to backup your log on a remote storage server, the documention descr
 ### Can you add support for dive computer X?
 
 We support a large number of dive computers already and are always happy to add support for more. Please contact us via the user forums so we can try to help. Some vendors have actively helped us in our work and adding support for new models from those vendors is usually easy. Other vendors are more neutral, some are actively hostile. Without help from the vendor it can be rather challenging to reverse engineer the transfer protocol and the dive encoding, but with sufficient help from you it is often possible to do so.
-
+<br />
 A good starting point is often to send us a libdivecomputer log and dump (you can pick those in the dive computer download dialog) when connecting to the dive computer using a similar existing model (if possible).
 
 ### Old style Suunto dive computers
