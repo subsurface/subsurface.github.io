@@ -14,72 +14,72 @@ p:not(.outside) {margin: 1em 0 1em 2.5rem!important; border-bottom: 1px solid rg
 
 # Général
 
-### Combien coûteSubsurface?
+### Combien coûte Subsurface?
 Subsurface est un logiciel is open source. Il est gratuit à utiliser (et non, nous ne sommes pas à la recherches de dons). Il est écrit par un groupe de personnes enthousiastes qui font cela durant leur temps libre - en ce compris la mise à disposition du stockage de Subsurface dans le cloud et toute l'infrastructure nécessaire. Veuillez tenir compte du fait que cela implique qu'ils répondront à vos demandes lorsqu'ils en ont le temps, et qu'ils n'apprécient généralement pas d'être considérés comme un service support d'un logiciel commercial. Si vous désirez un carnet de plongée commercial, il y en a beaucoup d'autres disponibles.
 ### Merci d'ajouter la super fonctionalité suivante
 Comme indiqué pour la question précédente, Subsurface est écrit et maintenu par des volontaires. Il compte également 10.000 utilisateurs. L'éventail actuel est fonctionalités tend à établir une balance raisonable entre une expérience utilsiateur facile à comprendre, et la rencontre des fonctiones les plus souvent demandées. Certaines nouvelles fonctions sount souvent rejetées si aucun des développeurs existants ne trouve pas franchement que cette fonction apporterait quelque chose d'important à la majorité de nos utilisateurs.
 ### La consommation de gas (SAC) calculée par Subsurface est erronée
 Vous attendez probablement que le calcul de consommation de gaz suive la loi des gaz parfaits. Malheureusement, les gaz réels ne sont pas parfaits. Et Subsurface [tient compte de la compressibilité des gaz](https://thetheoreticaldiver.org/wordpress/index.php/2017/11/02/when-real-gas-corrections-matter/).
 
-# OS support
+# Support des systèmes d'exploitation
 
 ## Windows
-### Supported versions
-Subsurface runs on Windows 10 and 11. It should still run on Windows 8 (but then, why would you want to run that). Older versions aren't supported anymore. Please look at the Windows section below for OS specific questions.
-### Where do I find the log files on Windows?
-The logs are in `C:\Users\Home\AppData\Roaming\Subsurface` in the two files `subsurface_out.log` and `subsurface_err.log`
-### Which drivers do I need for my dive computer
-Great question - typically those are specific to the combination of dive computer and download cable that you use. And it's really hard to give universally correct answers.
+### Versions supportées
+Subsurface fonctionne sous Windows 10 et 11. Il devrait encore fonctionne sous Windows 8 (mais bon, pourquoi voudriez-vous faire tourner ça). Les versions plus anciennes ne sont plus supportées. Veulliez vous référer à la section Windows pour les questions spécifiques au système d'exploitation. 
+### Où se trouvent les fichiers log sous Windows?
+Les logs sont situé dans le dossier `C:\Users\Home\AppData\Roaming\Subsurface` dans les deux fihiers `subsurface_out.log` and `subsurface_err.log`
+### De quels drivers ai-je besoin pour mon ordinateur de plongée
+Grande question - généralement ceux qui sont spécifiques à la combinaison de votre ordinateur de plongée et le câble de téléchargement que vous utilisez. Et il est très difficile de donner des réponses universellement correctes.
 
 ## macOS
-### Supported versions
-Subsurface runs on Intel Macs running macOS 10.13 and newer. Subsurface runs on M1 Macs in Rosettastone emulation mode. Please look at the macOS section below for OS specific questions.
-### Can you make binaries available for older macOS versions?
-Apple stopped supporting macOS 10.14 and older. We still support 10.13 and 10.14 - adding even older versions creates a lot of work for the developers for an increasingly small audience
-### I can't download from my Bluetooth dive computer on macOS 12 / Monterey
-That is a known issue; we are working on a fix, but right now the only option is to download using a mobile device / Subsurface-mobile and sync your dive log using Subsurface Cloud.
-### Is there a native version of Subsurface for the Apple M1 based Macs
-Several of the key libraries that Subsurface is based on have only incomplete support for M1 based Macs. We are working on a limited M1 build, but for now you are better off running the Intel binaries.
+### Versions supportées 
+Subsurface fonctionne sur les Macs Intel tournant sous macOS 10.13 ou plus récent. Subsurface fonctionne sur les Macs M1 en mode émulation Rosetta. Veulliez vous référer à la section macOS pour les questions spécifiques à ce système d'exploitation.
+### Pouvez-vous publier des applications pour les versions plus anciennes de macOS? 
+Apple a cessé de supporter 10.14 et plus ancien. Nous supportons encore 10.13 et 10.14 - ajouter des versions encore plus anciennes entraine beaucoup de travail pour nos déve;oppeurs, pour un nombre de plus en plus réduit d'utilisateurs.
+### Je n'arrive pas à télécharger depuis mon ordinateur de plongée Bluetooth sur macOS 12 / Monterey
+C'est un problème connu; nous travaillons à un correctif, mais pour l'instant la seule solution est de télécharger vers un appareil mobile / Subsurface-mobile et synchroniser votre carnet de plongée en utilisant le Cloud Subsurface.
+### Existe-t-il une version native de Subsurface pour les Macs à base d'Apple M1
+Plusieurs libraires importantes sur lesquelles est basé Subsurface ne supportent que partiellement les Macs M1. Nous travaillons à une version limitée pour les M1, mais pour l'instant il vaut mieux utiliser les applications Intel.
 
 ## Linux
-### Supported versions
-Subsurface can run on most Linux distributions. The developers actively maintain builds for current Fedora, openSUSE, and Ubuntu releases. There's also a Subsurface Snap and an AppImage. Generally try a distribution specific binary first. If that doesn't work, try the Snap or the AppImage. Please look at the Linux section below for more questions.
-### Can you add binaries for my favorite Linux distribution?
-Adding support for another Linux distribution is generally a lot of work and given the tiny user numbers not likely to happen. But please, talk to us if you think there is a distribution that we should add instead of the three that we currently support (Fedora, openSUSE, Ubuntu).
-### Can I build my own binaries?
-Yes, generally this is pretty easy (assuming you are somewhat familiar with C/C++ development under Linux). The `INSTALL` file in the source directory should get you started. Reach out to the developers if you need help beyond that (because likely that means we need to update the `INSTALL` file...)
+### Versions supportées
+Subsurface fonctionne sur la plupart des distributions Linux. Les développeurs maintiennent activement des applications pour les versions actuelles de Fedora, openSUSE et Ubuntu. Il y a aussi une version Snap et une AppImage. En général, essayez d'abord une version spécifique à une distribution. Si ela ne fonctionne pas, essayer la version Snap ou l'AppImage. Veuillez vous référer à la section Linux ce-dessous pour d'autres questions.
+### Pouvez-vous ajouter des applications pour ma distribution Linux préférée?
+Ajouter le support pour une distribution Linux supplémentaire demande généralement beaucoup de travail et, vu le nombre limité d'utilisateur, a peu de chance de se produire. Mais s'il-vous-plait, contatez-nous si vous pensez qu'il y a une distribution que nous devrions ajouter à la place des trois que nous supportons actuellement (Fedora, openSUSE, Ubuntu).
+### Puis-je compiler ma propre application?
+Oui, généralement c'est relativement facile (partant du principe que vous êtes familiers avec le développement C/C++ sous Linux). Le fichier `INSTALL` dans le dossier source est le meilleur endroit pour démarrer. Contactez les développeurs si vous avez besoin d'aide au-delà de ça (parce que cela veut probablement dire que nous devons mettre à jour le fichier `INSTALL`...)
 
 ## Android
-### What's the minimum Android version required
-Currently the minimum is Android 5.0 (but many old Android versions have other issues running Subsurface-mobile, e.g. issues with the SSL certificates used on our servers).
-### From which dive computers can Subsurface-mobile on Android directly download?
-Bluetooth and BLE based dive computers as well USB serial dive computers should generally work (assuming they are supported by Subsurface at all, of course). What doesn't work are other USB devices (like USB HID (e.g., Suunto EON Steel family), USB storage (e.g., Uemis Zurich), MTP (e.g., Garmin)).
+### Quelle est la version minimale requise pour Android
+Actuellement, la version minimale est Android 5.0 (mais beaucoup d'anciennes version d'Android ont d'autres soucis avec Subsurface-mobile, p. ex. avec les certificats SSL utilisés par nos serveurs).
+### Depuis quels ordinateurs de plongée Subsurface peut-il télécharger directement sur Android?
+Les dordinateurs de plongée Bluetooth et BLE based ainsi que ceux utilisant un USB série devraient généralement fonctionner (à condition d'être complètement supportés par Subsurface, évidemment). Ceux qui ne fonctionnent pas sont les autres périphériques USB (comme USB HID (p. ex. la gamme Suunto EON Steel), le stockage USB  (p. ex., Uemis Zurich), MTP (p. ex., Garmin)).
 
 ## iOS
-### From which dive computers can Subsurface-mobile on iOS directly download?
-Only Bluetooth and BLE based dive computers (that are already supported in Subsurface) work with iOS devices. No cable based downloads are possible.
+### Depuis quels ordinateurs de plongée Subsurface peut-il télécharger directement sur iOS?
+Seuls les ordinateurs de plongée Bluetooth et BLE (qui sont déjà supportés par Subsurface) fonctionnent sur les appareils iOS. Aucun téléchargement par câble n'est possible.
 
-# Issues with specific dive computers
-### Old style Suunto dive computers
-Most of the download cables are FTDI based and need the appropriate drivers installed. Some other third party cables need different drivers. Without those drivers, the dive computer device won't show up. Once you can see the device (`COMn` or `/dev/tty...`), if you get timeouts or data errors, see the <a href="#i-get-timeouts-or-data-error-when-downloading">data error question</a>.
-### I get timeouts or data error when downloading
-Astoundingly commonly the reason are wet or dirty contacts or a low battery. It doesn't matter if the dive computer turns on. Download mode often requires much higher stable voltage to work. And sadly we even have seen situations where the vendor dive log will work (because it can do a much better job at 'error correction'), but Subsurface won't download until you have a fresh battery and really clean and really dry contacts.
-### BLE (Bluetooth Low Energy) downloads are incredibly slow
-Yes, yes they are. Since Subsurface supports BLE download from many different dive computers from many different vendors, the code is often not as well tuned for a specific dive computer as the vendor app can be. So unfortunately these downloads are painfully slow. Usually downloading a few dives a day is tedious, but not horrible. But especially a first download with a hundred or more dives can take an hour and longer - and sometimes it is hard to complete the download without running into errors that lead the download to abort. It really pays off to download early and often. And if the dive computer offers a way to download with a USB cable (in addition to BLE, like for example the Suunto EON Steel family), that is definitely preferable especially for that first download.
+# Problèmes spécifiques à certains ordinateurs de plongée
+### Anciens ordinateurs de plongée Suunto
+La plupart des câbles de téléchargement sont basés sur FTDI et nécessitent l'installation des drivers appropriés. Certains autres câbles de tierce partie nécessitent d'autres drivers. Sans ces drivers, les ordinateurs de plongée ne s'afficheront pas. Lorsque l'appareil est visible (`COMn` or `/dev/tty...`), si vous avez des erreurs de délai ou de données, consultez la <a href="#i-get-timeouts-or-data-error-when-downloading">question concernant les erreurs de données</a>.
+### J'obtiens des erreurs de données ou des délais lorsque je télécharge
+Le plus fréquemment, les raisons sont liées à des contatcs humides ou sales, ou une batterie faible. Cela n'a pas d'importance si l'appareil s'allume. Le mode téléchargement nécessite souvent un voltage stable plus élevé pour fonctionner. Et malheureusement nous avons même constaté des cas où le logiciel du vendeur fonctionnait (parce qu'il peut faire un bien meilleur travail en 'correction d'erreur'), mais Subsurface ne télécharge pas tant qu'il n'y aura pas une batterie chargée et que les contacts seront vraiment secs et propres.
+### Les téléchargements BLE (Bluetooth Low Energy) sont incroyablement lents
+Oui, ils le sont. A partir du moment où Subsurface support le téléchargement BLE depuis une grande quantité d'ordinateurs de plongée venant de nombreux fabricants différents, le code n'est généralement pas aussi bien adapté pour un modèle scpécifique que ce que l'application du constructeur pourrait faire. En conséquence, ces téléchargements sont horriblement lents. En général, télécharger un petit nombre de plongée est fastidieux, mais pas horrible. Mais un premier téléchargement avec un centaine de plongées ou plus peu prendre une heure ou plus - et parfois il est difficile de terminer le téléchargement sans obtenir des erreurs qui obligent à annuler le téléchargement. Il est vraiment intéressant de télécharger tôt et souvent. Et si l'ordinatteur proposer un moyen de télécharger via un câble USB (en plus du BLE, comme par exemple la gamme Suntoo EON Steel), c'est clairement préférable, en particulier lors du premier téléchargement.
 ## Garmin Descent
-### Does Subsurface-mobile support the Garmin Descent?
-The Descent dive computers are only supported on Windows, macOS, and Linux, and only for cable based download. There are no plans to support BLE downloads on any platform.
-### Can I import '.FIT' files directly?
-If for some reason you cannot get regular input to work, but have access to the `.FIT` files, you can still use Subsurface to import (or better, download) those. Simply create a folder `...somepath.../Garmin/Activity` and copy the `.FIT` files into that folder. Now start a Subsurface download and enter `...somepath...` (without the `Garmin/Actity` part) in the Connection field and press Download.
-### Garmin Descent Mk2/Mk2i doesn't want to connect
-The Descent Mk2/Mk2i is an MTP device which causes occasional problems when trying to download from it using Subsurface. MTP supports only a single connection, so other MTP apps may prevent Subsurface from talking to your dive computer. Exit apps like the Android File Transfer.
-### Garmin Descent Mk2/Mk2i on Windows
-You need the correct USB driver in order to talk to the Descent Mk2/Mk2i:<br>- download [Zadig 2.6](https://zadig.akeo.ie/) and run it<br>- plug in the Descent and select MTP<br>- wait for Zadig to offer the Descent as an option (this may require an unplug / replug cycle)<br>- select the Descent and tell Zadig to install `libusb-win32` (wait for this to finish which takes a while)<br>- unplug the Descent and plug it back in, again selecting MTP<br>- now Subsurface is able to download from it (don't enter anything in the connection field
+### Subsurface-mobile supporte-t-il le Garmin Descent?
+Les ordinateurs de plongée Descent sont uniquement supportées sur Windows, macOS, et Linux, et uniquement en téléchargement par câble. Il n'existe aucun projet de support de téléchargement BLE sur une des plateformes.
+### Puis-je importer directement les fichiers '.FIT'?
+Si pour une raison quelconque vous n'arrivez pas à téléchager normalement, mais avez accès aux fichiers `.FIT`, vous pouvez toujours utiliser Subsurface pour importer (ou mieux, télécharger) ces fichiers. Créez simplement un dossier `...chemin.../Garmin/Activity` et copiez les fichiers `.FIT` dans ce dossier. Démarrez ensuite le téléchargement Subsurface et entrez `...chemin...` (sans le `Garmin/Actity` part) dans le champ Connexion field et pressez Télécharger.
+### Le Garmin Descent Mk2/Mk2i refuse de se connecter
+Le Descent Mk2/Mk2i est une appareil MTP qui cause des soucis occasionnels lorsqu'on tente de télécharger depuis cet appareil vers Subsurface. Le MPT ne supporte qu'une seule connexion; ainsi, les autres applications MTP peuvent empêcher Subsurface de communiquer avec l'ordinateur de plongée. Quittez les applis telles que Android File Transfer.
+### Garmin Descent Mk2/Mk2i sous Windows
+Vous avez besoin du driver USB adéquat pour communiquer avec le Descent Mk2/Mk2i:<br>- téléchargez [Zadig 2.6](https://zadig.akeo.ie/) et démarrez-le <br>- connectez le Descent et sélectionnez MTP<br>- attendez que Zadig proposer le Descent parmi les options (cela peut nécessitez un cycle brancher/débrancher)<br>- sélectionnez le Descent et demander à Zadig d'installer `libusb-win32` (attendez la fin de cette étape qui prend un certain temps)<br>- débrancher le Descent et rebranchez-le, en sélectionnant à nouveau MTP<br>- Subsurface est maintenant capable de téléchargez (n'entrez rien dans le champ Connexion)
 
-# Other questions
+# Autres questions
 
-If your question wasn't answered here, please check the [User Forum](https://subsurface-divelog.org/user-forum/) (try the search function) and if you don't find an answer there, create a new topic and ask for help.
+Si votre question n'est pas abordée ici, veuillez consulter le [Forum utilisateurs](https://subsurface-divelog.org/user-forum/) (utilisez la fonction de recherche) et si vous n'y trouvez aucune réponse, créez un nouveau sujet et demandez de l'aide.
 
-<p class="outside"> This FAQ is maintained on [GitHub](https://github.com/subsurface/subsurface.github.io) -- pull requests welcome.  <p>
+<p class="outside"> Ce FAQ est maintenu sur [GitHub](https://github.com/subsurface/subsurface.github.io) -- les demandes de modifications sont bienvenues.  <p>
 
 ***

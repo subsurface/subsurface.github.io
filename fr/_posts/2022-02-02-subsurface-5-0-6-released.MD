@@ -1,35 +1,35 @@
 ---
 layout: post
-title: "Aankondiging Subsurface 5.0.6"
-lang: "nl"
+title:  "Annonce Subsurface 5.0.6"
+lang:   "fr"
 categories: release
 version: 5.0.6
 previousVersion: 5.0.5
 ref: subsurface-5.0.6
 ---
 
-Het Subsurface ontwikkelteam presenteert met trots versie {{ page.version }} van Subsurface, een open source duiklog en duikplan programma beschikbaar voor Windows, Mac en Linux.
+L'équipe de développement de Subsurface est fière de vous annoncer la version {{ page.version }} de Subsurface, un carnet de plongée et planificateur open source pour Windows, Mac and Linux.
 
-Deze versie voegt enkele kleine wijzigingen toe in vergelijking met {{ page.previousVersion }}.
+Cette version ajoute quelques petits modifications par rapport à la version {{ page.previousVersion }}.
 
-Wijzigingen in Subsurface {{ page.version }}:
+Modifications dans Subsurface {{ page.version }}:
 
-# Nieuwe functionaliteit:
+# nouvelles fonctionnalités:
 
-- Statistieken: sorteren van categorische staafdiagrammen
+- statistiques: implémentation de l'ordre de bar-graphs par catégorie 
 
-# Opgeloste problemen:
+# bogues résolus:
 
-- Duiklijst: geen SAC berekening voor CCR-duiken
+- liste des plongées: ne tente plus de calculer la consommation sur les plongée en recycleur à circuit fermé
 
-- Profiel: fix bewerking van tijd / duur (profiel van bewerkte duik werd niet getoond)
+- profil: corrigé l'édition de l'heure/durée (le profil de la plongée éditée n'était plus affichée)
 
-- Profiel: een deel van de implementatie herschreven wat resulteerde in prestatieverbeteringen
+- profil: réécriture d'une partie de l'implémentation qui conduit à l'amélioration de performances
 
-# Duikcomputer ondersteuning:
+# support d'ordinateurs de plongée:
 
-- Uwatec/Scubapro duikcomputers: gebruik de oorspronkelijke standaard zwaartekrachtfactor
+- ordinateurs de plongée Uwatec/Scubapro: rétablit de facteur de gravité stangard original
 
-- Garmin: fix verwerking gasverandering gebeurtenis
+- Garmin: corrige la prise en compte d'événement de changement de gaz
 
 {% include desktop-release-bottom.MD %}
