@@ -22,7 +22,7 @@ Modifications dans Subsurface {{ page.version }}:
 
 - planificateur: résolution d'un bogue réglant la MND d'un mélange gazeux avec 21% d'oxygène
 
-- noyau: herstel weergave onjuist duikprofiel in #3184
+- noyau: correction de l'affichage incorrects de certains profils de plongée #3184
 
 - noyau: suite à un bogue dans 5.0.3, certains carnets de plongée étaient erronément stockés et ne pouvaient en conséquence être relus
 
