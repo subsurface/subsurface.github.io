@@ -62,6 +62,10 @@ languages:
     base: "/pt"
     flag: "🇵🇹"
     userForum: "user forum"
+  - short: "fr"
+    long: "Française"
+    base: "/fr"
+    flag: "🇫🇷"
 
 permalink: /:categories/:year/:month/:title/
 
