@@ -63,9 +63,10 @@ languages:
     flag: "🇵🇹"
     userForum: "user forum"
   - short: "fr"
-    long: "Française"
+    long: "Français"
     base: "/fr"
     flag: "🇫🇷"
+    userForum: "forum utilisateurs"
 
 permalink: /:categories/:year/:month/:title/
 
