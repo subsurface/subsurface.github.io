@@ -10,7 +10,7 @@ ref: subsurface-5.0.8
 
 The Subsurface development team proudly announces the release {{ page.version }} of Subsurface, an open source dive log and dive planning program for Windows, Mac, and Linux.
 
-This version is a quick follow up to {{ page.previousVersion }} and fixes an onnoying bug that snuck into the builds of that release.
+This version is a quick follow up to {{ page.previousVersion }} and fixes an annoying bug that snuck into the builds of that release.
 
 Changes in Subsurface {{ page.version }}:
 
