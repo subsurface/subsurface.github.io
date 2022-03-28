@@ -25,3 +25,5 @@ Cambios en  Subsurface {{ page.version }}:
 # Resolución de errores:
 
 - Sistema de compilación: Corrige errores de empaquetado que hacían que no se mostraran los mapas en Windows y macOS
+
+{% include desktop-release-bottom.MD %}

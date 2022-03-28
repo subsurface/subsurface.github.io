@@ -25,3 +25,5 @@ Changes in Subsurface {{ page.version }}:
 # bug fixes:
 
 - build-system: fix packaging errors that prevented maps from being shown on Windows and macOS
+
+{% include desktop-release-bottom.MD %}

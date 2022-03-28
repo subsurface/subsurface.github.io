@@ -25,3 +25,5 @@ Wijzigingen in Subsurface {{ page.version }}:
 # Opgeloste problemen:
 
 - build-systeem: verhelp fout welke verhinderde dat kaarten werden weergegeven op Windows en macOS
+
+{% include desktop-release-bottom.MD %}

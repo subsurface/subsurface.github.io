@@ -26,3 +26,5 @@ Mudanças no Subsurface {{ page.version }}:
 # Correcção de problemas:
 
 - Sistema de binários: corrige erro nos pacotes que evitava que os mapas fossem exibidos no Windows e macOS
+
+{% include desktop-release-bottom.MD %}
