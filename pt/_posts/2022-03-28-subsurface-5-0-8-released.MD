@@ -21,7 +21,7 @@ Mudanças no Subsurface {{ page.version }}:
 
 - perfil: apresentação dos dados dos sensores de pressão de outros computadores de mergulho, se disponíveis
 
-- traduções: usa línguas relacionadas se a linguagem escolhida não estiver completa, antes de usar por defeito a língua inglesas (variante US)
+- traduções: usa uma linguagem relacionada se a linguagem escolhida não estiver completa, antes de usar por defeito a língua inglesa (variante US)
 
 # Correcção de problemas:
 

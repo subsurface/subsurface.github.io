@@ -25,7 +25,7 @@
 <p>Por favor, publica preguntas o problemas en el <a href="https://groups.google.com/g/subsurface-divelog">Foro de usuarios</a> o comunica un fallo en nuestro <a href="https://github.com/Subsurface/subsurface/issues">Bug Tracker</a>.</p>
 {% elsif page.lang == "pt" %}
 
-<h1>Onde posso encontrar os ficheiros binários</h1>
+<h1>Onde posso encontrar os ficheiros binários?</h1>
 <p>Estão disponíveis ficheiros binários para Windows, Mac, e uma AppImage para Linux x86-64 (além de binários específicos para várias distribuições Linux, incluindo Ubuntu, Fedora, e openSUSE).</p>
 <p>Pode obter o Subsurface {{page.version}} a partir das seguintes localizações:</p>
 <p><strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-{{page.version}}.exe">https://subsurface-divelog.org/downloads/subsurface-{{page.version}}.exe</a></p>
