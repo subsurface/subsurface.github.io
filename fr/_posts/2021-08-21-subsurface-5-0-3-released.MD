@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "Aankondiging Subsurface 5.0.3"
-lang: "nl"
+title: "Annonce Subsurface 5.0.3"
+lang: "fr"
 categories: release
 version: 5.0.3
 previousVersion: 5.0.2
 ref: subsurface-5.0.3
 ---
 
-Het Subsurface ontwikkelteam presenteert met trots versie {{ page.version }} van Subsurface, een open source duiklog en duikplan programma beschikbaar voor Windows, Mac en Linux.
+L'équipe de développement de Subsurface est fière de vous annoncer la version {{ page.version }} de Subsurface, un carnet de plongée et planificateur open source pour Windows, Mac and Linux.
 
-Deze versie voegt een aantal kleine verbeteringen toe en lost een aantal problmeen op in {{ page.previousVersion }}. Een bijwerking is dat oude functionaliteit (bijnamen van duikcomputers) waarvan we denken dat deze niet veel wordt gebruikt, is gewijzigd. De reden waarom we denken dat dit niet veel werd gebruikt, is dat een aantal wijzigingen in recente releases deze functionaliteit defect heeft gemaakt, maar niemand leek het probleem op te merken. Subsurface raakte soms in de war bij het identificeren van duikcomputers en bepaalde de verkeerde bijnaam. Nog erger, soms zou het ook reeds gedownloade duiken van bepaalde duikcomputers nogmaals downloaden. De oplossing voor dat probleem is enigszins drastisch omdat het alleen bijnamen toestaat voor duikcomputers die een tekstueel "Extra Informatie" serienummer hebben. In deze release is die informatie toegevoegd voor een zeer grote aantal van de van huidige duikcomputers, maar er zijn er nogal wat die geen bijnaam meer kunnen krijgen. Als dit bij jou het geval is, neem dan contact op met ons en laat weten welke duikcomputer je gebruikt en hoe je bijnamen gebruikt.
+Cette version apporte une série de petites améliorations et solutionne de nombreux problèmes de {{ page.previousVersion }}. Un effet indésirable est que d'anciennes fonctionnalités (comme le surnom des ordinateurs de plongée) qui sont rarement utilisées ne seront plus disponibles. La raison pour laquelle nous estimons que cette fonction est peu utilisée est que plusieurs modificatioins dans les versions récentes ont désactivé cette fonction d'une façon discrète, et personne n'a visiblement remarqué sa disparition. Subsurface avait parfois des difficultés à identifier les ordinateurs de plongée et utilisait un mauvais surnom. Et pire, cela menait à télécharger à nouveau des plongées déjà téléchargées depuis certains ordinateurs de plongée. La solution à ce problème est relativement drastique sachant que cela ne permet d'utiliser un surnom que pour les ordinateurs de plongée qui ont un numéro de série "Extra info" textuel. Certains des changements dans cette version ajoutent cette information dans un large ensemble d'ordinateurs de plongée, mais un petit nombre d'entre eux ne pourront plus utiliser les surnoms. Si vous êtes dans le cas, faites-nous savoir quel ordinateur de plongée vous utilisez et nous vous indiquerons comment utiliser les surnoms.
 
-Wijzigingen in Subsurface {{ page.version }}:
+Modifications dans Subsurface {{ page.version }}:
 
 # Nieuwe functionaliteit:
 

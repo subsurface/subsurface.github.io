@@ -50,6 +50,20 @@
 <p><strong>Linux: openSUSE / Fedora:</strong> ga naar onze <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">open build service release page</a></p>
 <p>Post vragen of problemen op het <a href="https://groups.google.com/g/subsurface-divelog">User Forum</a> of rapporteer een fout in onze <a href="https://github.com/Subsurface/subsurface/issues">Bug Tracker</a>.</p>
 
+{% elsif page.lang == "fr" %}
+
+<h1>Où puis-je trouver les exécutables?</h1>
+<p>Les exécutables sont disponibles pour Windows, Mac, et sous forme d'AppImage pour Linux x86-64 (ainsi que des exécutables spécifiques à certaines distributions Linux parmi lesquelles Ubuntu, Fedora, et openSUSE).</p>
+<p>Vous pouvez obtenir Subsurface {{page.version}} depuis ces emplacements:</p>
+<p><strong>Windows:</strong> <a href="https://subsurface-divelog.org/downloads/subsurface-{{page.version}}.exe">https://subsurface-divelog.org/downloads/subsurface-{{page.version}}.exe</a></p>
+<p><strong>Mac:</strong> <a href="https://subsurface-divelog.org/downloads/Subsurface-{{page.version}}.dmg">https://subsurface-divelog.org/downloads/Subsurface-{{page.version}}.dmg</a> (cette version est destinée à la dernière version de macOS. Pour d'autres version de macOS, voir <a href="https://subsurface-divelog.org/downloads/">la page Téléchargements</a>)</p>
+<p><strong>Linux:</strong> Une AppImage générique est disponible au téléchargement: <a href="https://subsurface-divelog.org/downloads/Subsurface-{{page.version}}-x86_64.AppImage">Subsurface-{{page.version}}-x86_64.AppImage</a>, rendez-la exécutable</p>
+<p><code>chmod +x Subsurface-{{page.version}}-x86_64.AppImage</code> et exécuter simplement ce fichier.</p>
+<p><strong>Linux: Snap</strong><a href="https://snapcraft.io/subsurface"> <img alt="Get it from the Snap Store" src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" /> </a></p>
+<p><strong>Linux: Ubuntu: </strong>Ajoutez <code>ppa:subsurface/subsurface</code> à vos dépôts logiciels; les fichiers .deb files dans ce PPA peuvent également être installés sur les versions relativement récentes de <strong>LinuxMint</strong>; voyez la page <a href="https://subsurface-divelog.org/download/">Téléchargements</a> et utilisez <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> pour obtenir notre dernière version.</p>
+<p><strong>Linux: openSUSE / Fedora:</strong> allez sur notre page open build service <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&package=subsurface">open build service release page</a></p>
+<p>Veuillez soumettre vos questions ou problèmes sur <a href="https://groups.google.com/g/subsurface-divelog">Forum utilisateurs</a> ou transmettez-nous un rapport de bug via notre <a href="https://github.com/Subsurface/subsurface/issues">Bug Tracker</a>.</p>
+
 {% else %}
 
 <h1>Where do I find binaries?</h1>
@@ -60,7 +74,7 @@
 <p><strong>Linux:</strong> A generic AppImage is available for download: <a href="https://subsurface-divelog.org/downloads/Subsurface-{{page.version}}-x86_64.AppImage">Subsurface-{{page.version}}-x86_64.AppImage</a>, make it executable</p>
 <p><code>chmod +x Subsurface-{{page.version}}-x86_64.AppImage</code> and then simply run this file.</p>
 <p><strong>Linux: Snap</strong><a href="https://snapcraft.io/subsurface"> <img alt="Get it from the Snap Store" src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" /> </a></p>
-<p><strong>Linux: Ubuntu: </strong>Add <code>ppa:subsurface/subsurface</code> to your software sources; the .deb files in that PPA can also be installed on sufficiently current versions <strong>LinuxMint</strong>; see the <a href="https://subsurface-divelog.org/download/">Downloads</a> page and use <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> to get our latest release version.</p>
+<p><strong>Linux: Ubuntu: </strong>Add <code>ppa:subsurface/subsurface</code> to your software sources; the .deb in that PPA can also be installed on sufficiently current versions <strong>LinuxMint</strong>; see the <a href="https://subsurface-divelog.org/download/">Downloads</a> page and use <code>http://ppa.launchpad.net/subsurface/subsurface/ubuntu</code> to get our latest release version.</p>
 <p><strong>Linux: openSUSE / Fedora:</strong> go to our <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&package=subsurface">open build service release page</a></p>
 <p>Please post questions of problems in the <a href="https://groups.google.com/g/subsurface-divelog">User Forum</a> or file a bug in our <a href="https://github.com/Subsurface/subsurface/issues">Bug Tracker</a>.</p>
 {% endif %}
