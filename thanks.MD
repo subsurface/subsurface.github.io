@@ -19,6 +19,7 @@ The Subsurface team would like to thank a few companies and individuals for thei
 - Jan Johansson
 - Benjamin Fogel
 - Xiang Ji
+- Ben Andrews
 
 <br/>
 
