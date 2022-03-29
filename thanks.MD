@@ -23,5 +23,4 @@ The Subsurface team would like to thank a few companies and individuals for thei
 
 <br/>
 
-<hr/>
 
