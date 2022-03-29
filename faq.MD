@@ -29,7 +29,7 @@ Subsurface-mobile is available on Google Play and the iTunes App Store.
 
 ### How much does Subsurface cost?
 
-Subsurface is open source software. It's free to use (and no, we aren't looking for donations, either). It's written by a group of enthusiasts who do this in their spare time - including providing the Subsurface Cloud storage and all the other infrastructure. Please understand that this also means that they will respond to your requests when they have time, and they generally don't appreciate being treated like the support team of a commercial vendor. If you'd like a commercial dive log program, there are plenty others to choose from.
+Subsurface is open source software. It's free to use. It's written by a group of enthusiasts who do this in their spare time - including providing the Subsurface Cloud storage and all the other infrastructure. Please understand that this also means that they will respond to your requests when they have time, and they generally don't appreciate being treated like the support team of a commercial vendor. If you'd like a commercial dive log program, there are plenty others to choose from.
 
 ### Please add the following awesome feature
 
