@@ -119,10 +119,12 @@ table td { border: 1px solid #e8e8e8; }
   position: relative;
 }
 
-.site-title { font-size: 2.5em; font-weight: 600; line-height: 3em; margin-bottom: 0; float: left; }
+.site-title { font-size: 2.5em; font-weight: 600; line-height: 3em; margin-bottom: 0; }
 .site-title, .site-title:visited { color: #204a87; }
 
 .site-nav { float: right; line-height: 30px; text-align: right; }
+.site-nav { width: 100%; }
+.site-nav .trigger { width: 100%; }
 .site-nav .nav-trigger { display: none; }
 .site-nav .menu-icon { display: none; }
 .site-nav .mobile-nav { display: none; }
@@ -139,7 +141,7 @@ table td { border: 1px solid #e8e8e8; }
   .site-nav input:checked ~ .trigger .mobile-nav { display: block; padding-bottom: 5px; }
   .site-nav .page-link { display: block; padding: 5px 10px; margin-left: 20px; }
   .sidebar { display: none; }
-  main, header.site-header, footer { margin-left: 0px; }
+  main, header.site-header, footer, a.site-title { margin-left: 0px; }
 }
 /** Site footer */
 

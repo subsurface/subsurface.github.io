@@ -8,8 +8,6 @@
     {%- else -%}
       {%- capture my_base -%}/{{page.lang}}{%- endcapture -%}
     {%- endif -%}
-    <a class="site-title" rel="author" href="{{ my_base | relative_url }}">{{ site.title | escape }}</a>
-
     {%- if page_paths -%}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -48,7 +46,9 @@
         </div>
       </nav>
     {%- endif -%}
+    <a class="site-title" rel="author" href="{{ my_base | relative_url }}">{{ site.title | escape }}</a>
   </div>
+
 </header>
     {%- if page_paths -%}
         <div class="sidebar">
