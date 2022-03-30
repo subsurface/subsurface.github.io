@@ -131,6 +131,7 @@ table td { border: 1px solid #e8e8e8; }
 .site-nav .page-link { color: #111; line-height: 1.5; }
 .site-nav .page-link { margin-left: 20px; }
 @media screen and (max-width: 800px) {
+  .site-nav { width: auto; }
   .site-nav { position: absolute; top: 9px; right: 15px; background-color: #fdfdfd; border: 1px solid #e8e8e8; border-radius: 5px; text-align: right; }
   .site-nav label[for="nav-trigger"] { display: block; float: right; width: 36px; height: 36px; z-index: 2; cursor: pointer; }
   .site-nav .menu-icon { display: block; float: right; width: 36px; height: 26px; line-height: 0; padding-top: 10px; text-align: center; }
