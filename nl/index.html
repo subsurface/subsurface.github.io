@@ -7,7 +7,8 @@ lang: nl
 
 <div class="home">
 
-  <h1 class="page-heading">Nieuws</h1>
+  <article class="post">
+  <h1 class="page-title">Nieuws</h1>
 
   <ul class="post-list">
     {% assign posts=site.posts | where:"lang", page.lang %}
@@ -21,4 +22,5 @@ lang: nl
       </li>
     {% endfor %}
   </ul>
+  </article>
 </div>

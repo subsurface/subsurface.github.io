@@ -8,7 +8,8 @@ title: "Announcements"
 
 <div class="home">
 
-  <h1 class="page-heading">Announcements</h1>
+  <article class="post">
+  <h1 class="post-title">Announcements</h1>
 
   <ul class="post-list">
     {% assign posts=site.posts | where:"lang", page.lang %}
@@ -22,4 +23,5 @@ title: "Announcements"
       </li>
     {% endfor %}
   </ul>
+  </article>
 </div>
