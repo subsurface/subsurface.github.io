@@ -8,7 +8,56 @@ body { font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
 
 /** `main` element */
-main { display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */ }
+main {
+  display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+}
+
+main, header.site-header, footer {
+  margin-left: 160px; /* browsers that don't support calc */
+  margin-left: calc(max( 13em , 50% - 400px + 10em ));
+}
+
+/** sidebar */
+div.sidebar {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* this is for browsers that don't support calc */
+  width: calc(12em);
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  left: calc( max( 0px , 50% - 400px - 8em ) );
+  background-color: #fff; /* white */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding: 1em;
+  box-shadow: 0 0 7px rgba(0,0,0,.1);
+}
+
+div.logo {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+/* The navigation menu links */
+div.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 80%;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+div.sidebar a:hover {
+  color: #414141;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
 
 /** Images */
 img { max-width: 100%; vertical-align: middle; }
@@ -46,7 +95,7 @@ pre { padding: 8px 12px; overflow-x: auto; }
 pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 /** Wrapper */
-.wrapper { max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
+.wrapper { max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin-right: auto; margin-left: calc(1em); padding-right: 30px; padding-left: 30px; }
 @media screen and (max-width: 800px) { .wrapper { max-width: -webkit-calc(800px - (30px)); max-width: calc(800px - (30px)); padding-right: 15px; padding-left: 15px; } }
 
 /** Clearfix */
@@ -120,16 +169,14 @@ table td { border: 1px solid #e8e8e8; }
 /** Posts */
 .post-header { margin-bottom: 30px; }
 
-.post-title { font-size: 42px; letter-spacing: -1px; line-height: 1; }
-@media screen and (max-width: 800px) { .post-title { font-size: 36px; } }
+.post-title { font-size: 1.5em; letter-spacing: -1px; line-height: 1; }
+/** @media screen and (max-width: 800px) { .post-title { font-size: 36px; } } */
 
 .post-content { margin-bottom: 30px; }
-.post-content h2 { font-size: 32px; }
-@media screen and (max-width: 800px) { .post-content h2 { font-size: 28px; } }
-.post-content h3 { font-size: 26px; }
-@media screen and (max-width: 800px) { .post-content h3 { font-size: 22px; } }
-.post-content h4 { font-size: 20px; }
-@media screen and (max-width: 800px) { .post-content h4 { font-size: 18px; } }
+.post-content h1 { font-size: 1.5em; }
+.post-content h2 { font-size: 1.3em; }
+.post-content h3 { font-size: 1.2em; }
+.post-content h4 { font-size: 1.1em; }
 
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
