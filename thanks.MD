@@ -20,6 +20,7 @@ The Subsurface team would like to thank a few companies and individuals for thei
 - Benjamin Fogel
 - Xiang Ji
 - Ben Andrews
+- Aren Leishman
 
 <br/>
 
