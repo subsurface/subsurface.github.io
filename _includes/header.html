@@ -53,7 +53,7 @@
     {%- if page_paths -%}
         <div class="sidebar">
           <div class="logo">
-             <a href="https://subsuface-divelog.org"><img src="{{ "assets/subsurface-icon1.png" | relative_url }}"></a>
+             <a href="https://subsurface-divelog.org"><img src="{{ "assets/subsurface-icon1.png" | relative_url }}"></a>
           </div>
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
