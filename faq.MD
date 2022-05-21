@@ -37,7 +37,7 @@ As mentioned in the previous question, Subsurface is written and maintained by v
 
 ### The gas consumption / SAC rate reported by Subsurface is wrong
 
-Most likely you are expecting the gas consumption calculation to follow the naive idea gas laws. Unfortunately, real gases aren't ideal gases. And Subsurface [takes the compressibility of gases into account](https://thetheoreticaldiver.org/wordpress/index.php/2017/11/02/when-real-gas-corrections-matter/).
+Most likely you are expecting the gas consumption calculation to follow the naive ideal gas laws. Unfortunately, real gases aren't ideal gases. And Subsurface [takes the compressibility of gases into account](https://thetheoreticaldiver.org/wordpress/index.php/2017/11/02/when-real-gas-corrections-matter/).
 
 # OS support
 
