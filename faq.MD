@@ -273,6 +273,6 @@ You need the correct USB driver in order to talk to the Descent Mk2/Mk2i:<br>- d
 
 If your question wasn't answered here, please check the [User Forum](https://subsurface-divelog.org/user-forum/) (try the search function) and if you don't find an answer there, create a new topic and ask for help.
 
-<p class="outside"> This FAQ is maintained on [GitHub](https://github.com/subsurface/subsurface.github.io) -- pull requests welcome.  <p>
+<p class="outside"> This FAQ is maintained on <a href="https://github.com/subsurface/subsurface.github.io">GitHub</a> -- pull requests welcome.  <p>
 
 

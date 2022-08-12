@@ -80,6 +80,6 @@ Vous avez besoin du driver USB adéquat pour communiquer avec le Descent Mk2/Mk2
 
 Si votre question n'est pas abordée ici, veuillez consulter le [Forum utilisateurs](https://subsurface-divelog.org/user-forum/) (utilisez la fonction de recherche) et si vous n'y trouvez aucune réponse, créez un nouveau sujet et demandez de l'aide.
 
-<p class="outside"> Ce FAQ est maintenu sur [GitHub](https://github.com/subsurface/subsurface.github.io) -- les demandes de modifications sont bienvenues.  <p>
+<p class="outside"> Ce FAQ est maintenu sur <a href="https://github.com/subsurface/subsurface.github.io">GitHub</a> -- les demandes de modifications sont bienvenues.  <p>
 
 ***
