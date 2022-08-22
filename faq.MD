@@ -21,7 +21,7 @@ Subsurface provides recreational scuba divers, tech divers, and diving professio
 
 ### What operating systems does Subsurface support?
 
-Subsurface runs on Windows (32 and 64bit, Windows 10 and newer), MacOS (Intel, 10.13 and newer) and many flavors of Linux. Mobile versions of Subsurface are available for Android and iOS allow a portable platform for viewing your dive log and performing minor edits.
+Subsurface runs on Windows (32 and 64bit, Windows 10 and newer), MacOS (Intel, 10.15 and newer) and many flavors of Linux. Mobile versions of Subsurface are available for Android and iOS allow a portable platform for viewing your dive log and performing minor edits.
 
 We provide Linux packages for Ubuntu, Linux Mint, Debian, openSUSE and Fedora. A Snap package and a generic AppImage is available for other distributions of Linux. Details on where to find Subsurface for your OS are on our [Downloads](https://subsurface-divelog.org/download/) page.
 
@@ -78,11 +78,11 @@ This can have many reasons, but a really odd one we have found is that some anti
 
 ### Supported versions
 
-Subsurface runs on Intel Macs running macOS 10.13 and newer. Subsurface runs on M1 Macs in Rosettastone emulation mode.
+Subsurface runs on Intel Macs running macOS 10.15 and newer. Subsurface runs on M1 Macs in Rosettastone emulation mode.
 
 ### Can you make binaries available for older macOS versions?
 
-Apple stopped supporting macOS 10.14 and older. We still support 10.13 and 10.14 - adding even older versions creates a lot of work for the developers for an increasingly small audience.
+Apple stopped supporting macOS 10.14 and older. We are no longer are able to support these older versions of macOS.
 
 ### I can't download from my Bluetooth dive computer on macOS 12 / Monterey
 

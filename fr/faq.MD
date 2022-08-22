@@ -33,9 +33,9 @@ Grande question - généralement ceux qui sont spécifiques à la combinaison de
 
 ## macOS
 ### Versions supportées 
-Subsurface fonctionne sur les Macs Intel tournant sous macOS 10.13 ou plus récent. Subsurface fonctionne sur les Macs M1 en mode émulation Rosetta. Veuillez vous référer à la section macOS pour les questions spécifiques à ce système d'exploitation.
+Subsurface fonctionne sur les Macs Intel tournant sous macOS 10.15 ou plus récent. Subsurface fonctionne sur les Macs M1 en mode émulation Rosetta. Veuillez vous référer à la section macOS pour les questions spécifiques à ce système d'exploitation.
 ### Pouvez-vous publier des applications pour les versions plus anciennes de macOS? 
-Apple a cessé de supporter 10.14 et plus ancien. Nous supportons encore 10.13 et 10.14 - ajouter des versions encore plus anciennes entraîne beaucoup de travail pour nos développeurs, pour un nombre de plus en plus réduit d'utilisateurs.
+Apple a cessé de supporter 10.14 et plus ancien. 
 ### Je n'arrive pas à télécharger depuis mon ordinateur de plongée Bluetooth sur macOS 12 / Monterey
 C'est un problème connu; nous travaillons à un correctif, mais pour l'instant la seule solution est de télécharger vers un appareil mobile / Subsurface-mobile et synchroniser votre carnet de plongée en utilisant le Cloud Subsurface.
 ### Existe-t-il une version native de Subsurface pour les Macs à base d'Apple M1
