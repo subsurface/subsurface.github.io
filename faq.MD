@@ -171,7 +171,7 @@ The CSV import has a couple of caveats. You should avoid some special characters
 
 ### How can I use Subsurface for multiple users?
 
-Potentially the best way to acheive this is to use multiple user accounts on the computer, all operating systems have built-in support for multiple users. This was the Subsurface configuration for each user is truely separated.
+Potentially the best way to acheive this is to use multiple user accounts on the computer, all operating systems have built-in support for multiple users. This way the Subsurface configuration for each user is truely separated.
 <br />
 Potentially the easiest way to acheive this is to store logs of different users to separate log files. From Subsurface, you can open individual files for different divers and multiple users are supported quite well, the downside of this approach is that it's incompatible with Subsurface cloud storage.
 <br />
