@@ -121,11 +121,15 @@ From all other devices (including tablets and phones with OSs that we don’t su
 
 ### What's the minimum Android version required
 
-Currently the minimum is Android 5.0 (but many old Android versions have other issues running Subsurface-mobile, e.g. issues with the SSL certificates used on our servers).
+Currently the minimum is Android 8.0
 
 ### From which dive computers can Subsurface-mobile on Android directly download?
 
 Bluetooth and BLE based dive computers as well USB serial dive computers should generally work (assuming they are supported by Subsurface at all, of course). What doesn't work are other USB devices (like USB HID (e.g., Suunto EON Steel family), USB storage (e.g., Uemis Zurich), MTP (e.g., Garmin)).
+
+### The latest version in the beta-test is broken
+
+This happens from time to time - often it gets fixed quickly, sometimes it's a more stubborn problem that may take a while to address. The easist workaround is usually to simply leave the beta test, wait a short while (for Google's servers to sync), then uninstall Subsurface-mobile, wait a bit, and reinstall it. This way you get the production version which should work just fine.
 
 
 ## iOS
