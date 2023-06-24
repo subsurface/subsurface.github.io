@@ -13,6 +13,7 @@ The Subsurface team would like to thank a few companies and individuals for thei
 - [Shearwater Research](http://www.shearwaterresearch.com)
 - [Atomics Aquatics](http://www.atomicaquatics.com)
 - [Mares](http://www.mares.com)
+- [Scuba.Tech](https://www.scuba.tech)
 - Sea Bear
 - Oleg Mazurov
 - Andy Clements
