@@ -23,6 +23,7 @@ The Subsurface team would like to thank a few companies and individuals for thei
 - Ben Andrews
 - Aren Leishman
 - Adric Norris
+- [Julie Dumortier](https://www.samakër.com)
 
 <br/>
 
