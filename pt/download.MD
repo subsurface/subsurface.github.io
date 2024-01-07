@@ -6,12 +6,12 @@ permalink: /pt/download/
 ref: download
 ---
 
-Instead of formal releases every few months with a cumbersome, manual process, we are switching to pointing our users at the latest nightly builds instead. These are updated after each change that makes it into our main development branch and are therefore always current.
+Em vez de fazer o lançamento de novas versões a cada poucos meses através de um processo manual complicado, passámos para um processo em que dirigimos os nossos utilizadores para os ficheiros binários mais recentes, compilados sempre que cada nova mudança é incorporada no código no ramo de desenvolvimento principal. Desta forma, estes ficheiros estão sempre actualizados.
 
-Since these builds are created in a CI/CD system, they aren't signed, so macOS and Windows will show warning messages when installing those, but other than that they are identical to what we used to ship before.
+Uma vez que estes binários são criados através de um sistema CI/CD, não são assinados. Por este motivo, os sistemas macOS e Windows podem apresentar avisos ao instalar estes ficheiros, mas tirando esta diferença, são iguais aos ficheiros que eram disponibilizados anteriormente.
 
-For macOS, Windows, and Android you can find these builds on the [GitHub nightly build page](https://github.com/subsurface/nightly-builds/releases)
+Para macOS, Windows, e Android, estes binários pode ser encontrados página [GitHub nightly build](https://github.com/subsurface/nightly-builds/releases)
 
-Linux: Ubuntu: add `ppa:subsurface/subsurface-daily` to your software sources; the .deb in that PPA can also be installed on sufficiently current versions of *Debian*, *LinuxMint*, and some other Debian derived distributions.
+Linux: Ubuntu: adicionar `ppa:subsurface/subsurface-daily` à lista dos repositórios de software; o ficheiro .deb nesse PPA pode igualmente ser instalado em versões suficientemente recentes *Debian*, *LinuxMint*, e de outras distribuições derivadas do Debian.
 
-Linux: Fedora: download from our [COPR nightly release page](https://copr.fedorainfracloud.org/coprs/dirkhh/Subsurface-test)
+Linux: Fedora: descarregar na nossa página [COPR nightly release](https://copr.fedorainfracloud.org/coprs/dirkhh/Subsurface-test)
