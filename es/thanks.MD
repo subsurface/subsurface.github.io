@@ -24,6 +24,7 @@ El equipo de Subsurface desea mostrar su agradecimiento a algunas compañías y 
 - Aren Leishman
 - Adric Norris
 - [Julie Dumortier](https://www.samakër.com)
+- [Jeroen Massar](https://jeroen.massar.ch/)
 
 <br/>
 
